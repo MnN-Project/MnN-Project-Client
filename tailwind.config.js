@@ -7,18 +7,33 @@ module.exports = {
   ],
   theme: {
     colors: {
-      green: "#2BE6A2",
-      'light-green': '#08AB70',
-      white: '#fff',
+      green: "#08AB70",
+      "light-green": "#2BE6A2",
+      white: "#fff",
+      gray: "#D9D9D9",
+      "pinkish-gray": "#948888",
+      "dark-gray": "#212121",
+      background: "#f2f2f2",
+      dark: "#0F172A",
+    },
+    fontFamily: {
+      montserrat: ["Montserrat", "sans-serif"],
     },
     fontSize: {
-      xl: "24px",
-      lg: "20px",
-      md: "18px",
-      base: "16px",
-      sm: "14px",
+      "3xl": "2rem", //32px
+      "2xl": "1.5rem", //24px
+      xl: "1.5rem", //22px
+      lg: "1.25rem", //20px
+      md: "1.125rem", //18px
+      base: "1rem", //16px
+      sm: "0.875rem", //14px
     },
-    extend: {},
+    extend: {
+      screens: {
+        "2xs": "28rem", //448px
+        xs: "33.75rem", //540px
+      },
+    },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/container-queries")],
 };
