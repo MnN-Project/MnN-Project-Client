@@ -9,9 +9,9 @@ const styles = {
 
 const VerifyOtp = () => {
   return (
-    <div className=" md:px-48 md:py-10 p-8 bg-white md:bg-none min-h-screen ">
+    <div className=" font-montserrat md:px-48 md:py-10 p-8 bg-white md:bg-none min-h-screen ">
       <div className = 'flex justify-center md:block'>
-    <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 ">
+    <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold text-sm ">
         MADE IN NIGERIALOGO
       </p>
 
@@ -44,7 +44,7 @@ const VerifyOtp = () => {
           </div>
           <div className="pt-10 font-normal text-sm text-center ">
             <p>Check your inbox for the confirmation email</p>
-            <p>info@madeinnigeria.com</p>
+            <p className='text-[#1F7CD1]'>info@madeinnigeria.com</p>
             <div className="text-center mt-10 leading-9">
               <p>Confirm the code sent to your inbox</p>
               <div className="flex justify-center my-4">
@@ -72,9 +72,10 @@ const VerifyOtp = () => {
                     className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
                   />
                 </div>
+                {/* #1F7CD1 */}
               </div>
               <p>Did not receive email? Check Spam</p>
-              <Link href={"#"}>Resend Confirmation</Link>
+              <Link href={"#"} className="text-[#1F7CD1]">Resend Confirmation</Link>
             </div>
           </div>
         </div>
