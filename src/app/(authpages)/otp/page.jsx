@@ -1,6 +1,3 @@
-import Image from "next/image";
-// import background from "../../../assets/images/otpSideImage.png";
-import bg from "../../../assets/otpSideImage.png";
 import Link from "next/link";
 
 const styles = {
@@ -15,9 +12,9 @@ const VerifyOtp = () => {
           MADE IN NIGERIALOGO
         </p>
       </div>
-      <div className="  md:mx-16 ">
+      <div className=" md:mx-16 ">
         <p className=" text-right text-base mb-2 text-black hidden md:block">
-          Already a member? Sign in
+          Already a member? <Link href={'#'}>Sign in</Link> 
         </p>
 
         <div className="  min-h-[75vh] bg-white  md:shadow md:grid grid-cols-2">
