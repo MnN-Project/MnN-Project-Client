@@ -7,19 +7,31 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import img3 from "@/public/images/img3.jpg";
 
-const Login = () => {
+const SignUp = () => {
   const validationSchema = Yup.object().shape({
     email: Yup.string()
       .email()
       .trim()
       .required("Please enter your email address*"),
     password: Yup.string().trim().required("Please enter password"),
+    // .matches(
+    //   /^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[!@#$%^&*()]).{8,20}\S$/,
+    //   "Must Contain at least 8 Characters, One Uppercase, One Lowercase, One Number and one special case Character, no spaces"
+    // )
+
+    confirmPassword: Yup.string()
+      .trim()
+      .required("Please confirm your password"),
+    // .test("password-match", "Password must match", function (value) {
+    //   return this.parent.password === value;
+    // }),
   });
 
   const formik = useFormik({
     initialValues: {
       email: "",
       password: "",
+      confirmPassword: "",
     },
 
     validationSchema,
@@ -39,14 +51,13 @@ const Login = () => {
       </div>
 
       <div className="w-[85%] md:w-[70%] mx-auto mt-1 mb-2 flex gap-1 justify-end text-sm md:text-base font-normal font-montserrat text-dark">
-        <p>New User?</p>
+        <p>Already a member?</p>
         <Link
           href="/login"
           className="text-green hover:text-[#308868ed] font-medium cursor-pointer transition-all ease-linear duration-150"
         >
-          Sign Up
+          Sign in
         </Link>
-        <p>Now</p>
       </div>
 
       <div className="w-[85%] md:w-full mx-auto md:mx-0 md:flex md:flex-col md:items-center md:justify-center">
@@ -70,7 +81,7 @@ const Login = () => {
                     <h2 className="text-dark-gray text-sm md:text-lg font-bold font-montserrat">
                       This Coming Week...
                     </h2>
-                    <h3 className="mt-2 md:mt-5 mb-4 md:mb-0 text-sm md:text-md font-bold font-montserrat">
+                    <h3 className="mt-2 md:mt-5 mb-4 md:mb-0 text-sm md:text-base font-bold font-montserrat">
                       Enjoy Our{" "}
                       <span className="text-green">Unlimited Offers</span>
                     </h3>
@@ -94,7 +105,7 @@ const Login = () => {
           <div className="w-full md:basis-[50%] mt-8 md:mt-0 pb-10 md:pb-0 flex flex-col justify-center items-center bg-white rounded-sm shadow-md">
             <form className="w-[85%] md:w-[70%] flex flex-col items-center justify-center">
               <h1 className="text-base md:text-lg md:mb-5 text-[#000000] font-bold">
-                Sign in here
+                Enter Your Information
               </h1>
 
               <div className="w-full mt-6 relative">
@@ -139,17 +150,49 @@ const Login = () => {
                 ) : null}
               </div>
 
-              <div className="w-full mt-3 md:mt-5 mb-6 text-right">
-                <p className="text-dark-gray text-base font-normal font-montserrat">
-                  Forgot Password?
-                </p>
+              <div className="w-full mt-6 relative">
+                <input
+                  type="text"
+                  placeholder="Confirm Password"
+                  name="confirmPassword"
+                  value={formik.values.confirmPassword}
+                  onChange={formik.handleChange}
+                  onBlur={formik.handleBlur}
+                  className={
+                    formik.errors.confirmPassword &&
+                    formik.touched.confirmPassword
+                      ? "block w-full h-[2.2rem] md:h-[2.7rem] py-1 md:py-1.5 px-4 text-[12px] text-[#1c2125] border-0 outline-none ring-1 ring-inset ring-[#ff7272] placeholder:text-gray-400 placeholder:text-gray-400 placeholder:text[11px] focus:ring-1 focus:ring-inset focus:ring-[#ff7272] tracking-wide rounded-full shadow-sm"
+                      : "block w-full h-[2.2rem] md:h-[2.7rem] py-1 md:py-1.5 px-4 text-[12px] text-[#1c2125] border-0 outline-none ring-1 ring-inset ring-[#d4d4d4] placeholder:text-gray-400 placeholder:text-gray-400 placeholder:text[11px] focus:ring-1 focus:ring-inset focus:ring-[#999999] tracking-wide rounded-full shadow-sm"
+                  }
+                />
+                {formik.touched.confirmPassword &&
+                formik.errors.confirmPassword ? (
+                  <p className="text-[#ff0000] text-[13px] text-center absolute left-0 right-0 mx-auto">
+                    {formik.errors.confirmPassword}
+                  </p>
+                ) : null}
+              </div>
+
+              <div className="mt-3 mb-6 flex items-center">
+                <input
+                  id="checkbox-select"
+                  type="checkbox"
+                  value=""
+                  className="w-4 h-4 mr-2 md:mr-1 text-white accent-pinkish-gray rounded-sm"
+                />
+                <label
+                  htmlFor="checkbox-select"
+                  className="my-3 text-[12px] md:text-sm font-medium text-gray-900 dark:text-gray-300"
+                >
+                  Accept User Agreement and Privacy Policy
+                </label>
               </div>
 
               <button
                 type="submit"
                 className="block w-full h-[2.2rem] md:h-[2.7rem] py-1 md:py-1.5 bg-green text-white px-4 text-[12px] md:text-sm font-bold border-green rounded-full shadow-sm tracking-wide hover:bg-[#298060] cursor-pointer transition-all ease-linear duration-300"
               >
-                Sign in
+                Join
               </button>
             </form>
           </div>
@@ -197,4 +240,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;
