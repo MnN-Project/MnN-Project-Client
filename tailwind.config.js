@@ -15,6 +15,7 @@ module.exports = {
       "dark-gray": "#212121",
       background: "#f2f2f2",
       dark: "#0F172A",
+      
     },
     fontFamily: {
       montserrat: ["Montserrat", "sans-serif"],
