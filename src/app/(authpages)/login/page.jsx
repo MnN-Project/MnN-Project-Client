@@ -140,9 +140,11 @@ const Login = () => {
               </div>
 
               <div className="w-full mt-3 md:mt-5 mb-6 text-right">
-                <p className="text-dark-gray text-base font-normal font-montserrat">
-                  Forgot Password?
-                </p>
+                <Link href="/forgot-password" >
+                  <p className="text-dark-gray text-base font-normal font-montserrat">
+                    Forgot Password?
+                  </p>
+                </Link>
               </div>
 
               <button

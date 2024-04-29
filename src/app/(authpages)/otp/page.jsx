@@ -14,7 +14,7 @@ const VerifyOtp = () => {
       </div>
       <div className=" md:mx-16 ">
         <p className=" text-right text-base mb-2 text-black hidden md:block">
-          Already a member? <Link href={'#'}>Sign in</Link> 
+          Already a member? <Link href='/login'>Sign in</Link> 
         </p>
 
         <div className="  min-h-[75vh] bg-white  md:shadow md:grid grid-cols-2">
@@ -22,7 +22,7 @@ const VerifyOtp = () => {
             className="py-6 bg-cover bg-center px-7 font-bold text-xl hidden md:block "
             style={styles}
           >
-            <p className="text-green   ">Register With Us</p>
+            <p className="text-green">Register With Us</p>
             <p className="text-dark-gray w-[50%] mb-14 text-base">
               Your One Stop Website
             </p>
@@ -40,7 +40,7 @@ const VerifyOtp = () => {
           </div>
           <div className="pt-10 font-normal text-sm text-center ">
             <p>Check your inbox for the confirmation email</p>
-            <p className="text-[#1F7CD1]">info@madeinnigeria.com</p>
+            <p className="text-[#1F7CD1]">info@made-n-nigeria.com</p>
             <div className="text-center mt-10 leading-9">
               <p>Confirm the code sent to your inbox</p>
               <div className="flex justify-center my-4">
