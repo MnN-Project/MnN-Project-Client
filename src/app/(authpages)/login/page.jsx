@@ -41,7 +41,7 @@ const Login = () => {
       <div className="w-[85%] md:w-[70%] mx-auto mt-1 mb-2 flex gap-1 justify-end text-sm md:text-base font-normal font-montserrat text-dark">
         <p>New User?</p>
         <Link
-          href="/login"
+          href="/register"
           className="text-green hover:text-[#308868ed] font-medium cursor-pointer transition-all ease-linear duration-150"
         >
           Sign Up
