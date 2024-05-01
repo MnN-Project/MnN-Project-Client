@@ -1,4 +1,6 @@
 import Link from "next/link";
+// import { useFormik } from "formik";
+// import 
 
 const styles = {
   backgroundImage: `url('../../../assets/otpSideImage.png')`,
@@ -43,6 +45,8 @@ const VerifyOtp = () => {
             <p className="text-[#1F7CD1]">info@made-n-nigeria.com</p>
             <div className="text-center mt-10 leading-9">
               <p>Confirm the code sent to your inbox</p>
+                <form action="">
+                  
               <div className="flex justify-center my-4">
                 <div className="mr-3">
                   <input
@@ -68,8 +72,13 @@ const VerifyOtp = () => {
                     className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
                   />
                 </div>
+
                 {/* #1F7CD1 */}
               </div>
+                <button className="px-3 text-base font-semibold rounded text-white  bg-green">
+                  Send
+                </button>
+                </form>
               <p>Did not receive email? Check Spam</p>
               <Link href={"#"} className="text-[#1F7CD1]">
                 Resend Confirmation
