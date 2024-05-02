@@ -32,11 +32,13 @@ const Login = () => {
 
   return (
     <main className="w-full pt-7 md:pt-8 pb-5">
-      <div className="w-[85%] mx-auto mb-5">
-        <button className="px-3 md:px-6 mb-5 md:mb-0 py-2 md:py-3 text-[12px] md:text-sm font-bold tracking-wide text-white bg-green">
-          MADE IN NIGERIALOGO
-        </button>
-      </div>
+      <Link href="/">
+        <div className="w-[85%] mx-auto mb-5">
+          <button className="px-3 md:px-6 mb-5 md:mb-0 py-2 md:py-3 text-[12px] md:text-sm font-bold tracking-wide text-white bg-green cursor-pointer">
+            MADE IN NIGERIALOGO
+          </button>
+        </div>
+      </Link>
 
       <div className="w-[85%] md:w-[70%] mx-auto mt-1 mb-2 flex gap-1 justify-end text-sm md:text-base font-normal font-montserrat text-dark">
         <p>New User?</p>
@@ -140,7 +142,7 @@ const Login = () => {
               </div>
 
               <div className="w-full mt-3 md:mt-5 mb-6 text-right">
-                <Link href="/forgot-password" >
+                <Link href="/forgot-password">
                   <p className="text-dark-gray text-base font-normal font-montserrat">
                     Forgot Password?
                   </p>

@@ -9,8 +9,8 @@ const ResendOTP = () => {
     const input = e.target.value;
     setData(input);
 
-    if (!/^\d{4}$/.test(input)) {
-      setError("Please enter a 4-digit code.");
+    if(!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(input)) {
+      setError("Please enter a valid email.");
     } else {
       setError("");
     }
@@ -33,7 +33,7 @@ const ResendOTP = () => {
             </p>
             <div className="text-center">
               <p className="text-sm my-10 mt-16 px-1 ">
-                Enter the last OTP sent to your mail
+                Enter your email to receive a new OTP
               </p>
               <div>
                 <input

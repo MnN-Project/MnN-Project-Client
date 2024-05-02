@@ -31,11 +31,13 @@ const VerifyOtp = () => {
   });
   return (
     <div className=" font-montserrat lg:px-48 md:py-6 p-10 bg-white md:bg-none  lg:h-screen">
-      <div className="flex justify-center md:block">
-        <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold  ">
-          MADE IN NIGERIALOGO
-        </p>
-      </div>
+      <Link href="/">
+        <div className="flex justify-center md:block">
+          <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold  ">
+            MADE IN NIGERIALOGO
+          </p>
+        </div>
+      </Link>
       <div className=" md:mx-16 ">
         <p className=" text-right text-base mb-2 text-black hidden md:block">
           Already a member? <Link href="/login">Sign in</Link>
@@ -111,14 +113,14 @@ const VerifyOtp = () => {
                 </div>
                 <button
                   type="submit"
-                  className="px-3 text-base font-semibold rounded text-white  bg-green"
+                  className="py-3 font-bold rounded text-white bg-green w-[90%] lg:w-[60%] my-5"
                 >
                   Send
                 </button>
               </form>
               <p>Did not receive email? Check Spam</p>
-              <Link href={"#"} className="text-[#1F7CD1]">
-                Resend Confirmation
+              <Link href={"/resend-otp"} className="text-[#1F7CD1]">
+                Resend OTP
               </Link>
             </div>
           </div>
