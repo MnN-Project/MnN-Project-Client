@@ -1,7 +1,7 @@
 import { TfiMenuAlt } from "react-icons/tfi";
 const NavList = ({ children }) => {
   return (
-    <nav className="flex-auto basis-1/4 relative">
+    <nav className="basis-1/4 relative hidden lg:block"> {/*removed [flex-auto] */}
       <div className="relative pr-s">
         <a href="#">
           <span className="text-0">

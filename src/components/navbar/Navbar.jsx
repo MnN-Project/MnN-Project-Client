@@ -12,7 +12,7 @@ const Navbar = () => {
               <div className="relative">
                 <div className="py-2xs pl-xs pr-s whitespace-nowrap group">
                   <a
-                    className="transition-colors duration-150 ease-out whitespace-nowrap group-hover:text-green"
+                    className="transition-colors group duration-150 ease-out whitespace-nowrap group-hover:text-green"
                     href="#"
                   >
                     <TfiMenuAlt className="inline-block align-middle text-base mr-[3px] -mt-0.5 whitespace-nowrap group-hover:text-green" />
@@ -23,7 +23,7 @@ const Navbar = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="2"
                       stroke="currentColor"
-                      className="w-4 h-4 ml-1.3 inline-block"
+                      className="w-4 h-4 ml-1.3 inline-block transition-transform ease-linear duration-200 group-hover:rotate-180"
                     >
                       <path
                         strokeLinecap="round"
@@ -34,9 +34,9 @@ const Navbar = () => {
                   </a>
                 </div>
                 {/* content */}
-                <div className="">
-                  <div className="">{/* Category items */}</div>
-                  <div className="">{/* Additional category items */}</div>
+                <div className="hidden">
+                  <div className="">Category items</div>
+                  <div className="">Additional category items</div>
                 </div>
                 {/* end content */}
               </div>
@@ -56,7 +56,6 @@ const Navbar = () => {
           </span>
         </div>
         {/* Left */}
-
         <div className="flex pl-2xl -mr-[3px] text-[14px]">
           <NavbarLink text="Supplier Guide" />
           <NavbarLink text="Buyers Guide" />
