@@ -1,5 +1,5 @@
 import { cn } from "../../libs/utils";
-const Container = ({ id, className, children, small }) => {
+const Container = ({ className, children, small }) => {
   return (
     <section className="relative z-10 container-wrapper block">
       <div

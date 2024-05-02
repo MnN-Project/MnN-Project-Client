@@ -69,81 +69,81 @@ export const CategoryList = [
     href: "#",
     text: "Manufacturing & Processing Machinery",
   },
-  {
-    id: 2,
-    href: "#",
-    text: "Consumer Electronics",
-  },
-  {
-    id: 3,
-    href: "#",
-    text: "Transportation",
-  },
-  {
-    id: 4,
-    href: "#",
-    text: "Health & Medicine",
-  },
-  {
-    id: 5,
-    href: "#",
-    text: "Computer Products",
-  },
-  {
-    id: 6,
-    href: "#",
-    text: "Apparel & Accessories",
-  },
-  {
-    id: 7,
-    href: "#",
-    text: "Industrial Equipment & Components",
-  },
-  {
-    id: 8,
-    href: "#",
-    text: "Construction & Decoration",
-  },
-  {
-    id: 9,
-    href: "#",
-    text: "Sporting Goods & Recreation",
-  },
-  {
-    id: 10,
-    href: "#",
-    text: "Packaging & Printing",
-  },
-  {
-    id: 11,
-    href: "#",
-    text: "Arts & Crafts",
-  },
-  {
-    id: 12,
-    href: "#",
-    text: "Lights & Lighting",
-  },
-  {
-    id: 13,
-    href: "#",
-    text: "Light Industry & Daily Use",
-  },
-  {
-    id: 14,
-    href: "#",
-    text: "Auto, Motorcycle Parts & Accessories",
-  },
-  {
-    id: 15,
-    href: "#",
-    text: "Electrical & Electronics",
-  },
-  {
-    id: 16,
-    href: "#",
-    text: "More Categories",
-  },
+  // {
+  //   id: 2,
+  //   href: "#",
+  //   text: "Consumer Electronics",
+  // },
+  // {
+  //   id: 3,
+  //   href: "#",
+  //   text: "Transportation",
+  // },
+  // {
+  //   id: 4,
+  //   href: "#",
+  //   text: "Health & Medicine",
+  // },
+  // {
+  //   id: 5,
+  //   href: "#",
+  //   text: "Computer Products",
+  // },
+  // {
+  //   id: 6,
+  //   href: "#",
+  //   text: "Apparel & Accessories",
+  // },
+  // {
+  //   id: 7,
+  //   href: "#",
+  //   text: "Industrial Equipment & Components",
+  // },
+  // {
+  //   id: 8,
+  //   href: "#",
+  //   text: "Construction & Decoration",
+  // },
+  // {
+  //   id: 9,
+  //   href: "#",
+  //   text: "Sporting Goods & Recreation",
+  // },
+  // {
+  //   id: 10,
+  //   href: "#",
+  //   text: "Packaging & Printing",
+  // },
+  // {
+  //   id: 11,
+  //   href: "#",
+  //   text: "Arts & Crafts",
+  // },
+  // {
+  //   id: 12,
+  //   href: "#",
+  //   text: "Lights & Lighting",
+  // },
+  // {
+  //   id: 13,
+  //   href: "#",
+  //   text: "Light Industry & Daily Use",
+  // },
+  // {
+  //   id: 14,
+  //   href: "#",
+  //   text: "Auto, Motorcycle Parts & Accessories",
+  // },
+  // {
+  //   id: 15,
+  //   href: "#",
+  //   text: "Electrical & Electronics",
+  // },
+  // {
+  //   id: 16,
+  //   href: "#",
+  //   text: "More Categories",
+  // },
 ];
 
 export const CategoryItems = [

@@ -1,7 +1,9 @@
 "use client";
-const NavBarLink = ({ text }) => {
+const NavBarLink = ({ text, className }) => {
   return (
-    <div className="flex-[0_0_auto] whitespace-nowrap py-2xs pr-m">
+    <div
+      className={`flex-[0_0_auto] whitespace-nowrap py-2xs pr-m ${className}`}
+    >
       <div className="relative inline-block">
         <span>
           <a
