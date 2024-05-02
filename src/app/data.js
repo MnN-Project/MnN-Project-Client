@@ -1,65 +1,67 @@
 export const trendingProductList = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1627384113743-6bd5a479fffd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    content: "Facial Product",
+    src: "/assets/Cement.png",
+    content: "Dangote Cement",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=1399&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    content: "Watches",
+    src: "/assets/chilli2.png",
+    content: "chilli2.png",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
-    content: "Moisturizers",
+    src: "/assets/Aba-shoe-12.png",
+    content: "Aba Shoes",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzZ8fHByb2R1Y3RzfGVufDB8fDB8fHww",
-    content: "Perfume",
+    src: "/assets/Nord-1.png",
+    content: "Nord Motors",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1617005082133-548c4dd27f35?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHByb2R1Y3RzfGVufDB8fDB8fHww",
-    content: "Camera",
+    src: "/assets/Milk.png",
+    content: "Hollandia Milk",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1585386931415-464367473a01?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjR8fHByb2R1Y3RzfGVufDB8fDB8fHww",
-    content: "Vase",
+    src: "/assets/Shirts.png",
+    content: "Native Wears",
   },
   {
     id: 7,
-    src: "https://images.unsplash.com/photo-1608611516712-25e9aa594d73?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODN8fHByb2R1Y3RzfGVufDB8fDB8fHww",
-    content: "Japanese Tea",
+    src: "/assets/cashew.png",
+    content: "Cashew Juice",
   },
   {
     id: 8,
-    src: "https://images.unsplash.com/photo-1619153709175-64db4b9f5ed5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fHByb2R1Y3RzfGVufDB8fDB8fHww",
-    content: "Plastic Pack",
+    src: "/assets/sugar.png",
+    content: "Nigerian Sugar",
   },
   {
     id: 9,
-    src: "https://images.unsplash.com/flagged/photo-1556637640-2c80d3201be8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    content: "White Sneakers",
+    src: "/assets/ladies-Aba.png",
+    content: "Ladies Shoes",
   },
   {
     id: 10,
-    src: "https://images.unsplash.com/photo-1547887537-6158d64c35b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTE2fHxwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D",
-    content: "Beauty Perfume",
+    src: "/assets/lubricant.png",
+    content: "Lubricants",
   },
   {
     id: 11,
-    src: "https://images.unsplash.com/photo-1605034313761-73ea4a0cfbf3?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    content: "Vans",
+    src: "/assets/Beer.png",
+    content: "Beverages",
   },
   {
     id: 12,
-    src: "https://images.unsplash.com/photo-1615281612781-4b972bd4e3fe?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTM2fHxwcm9kdWN0c3xlbnwwfHwwfHx8MA%3D%3D",
-    content: "Air Bod",
+    src: "/assets/Cooking Oil.png",
+    content: "Cooking Oil",
   },
 ];
+
+
 
 export const CategoryList = [
   {
