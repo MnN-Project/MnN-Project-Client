@@ -9,7 +9,15 @@ function AuthLayout({ title, titleLink, children }) {
   return (
     <div>
       {/* <div className=" font-montserrat lg:px-48 md:py-6 p-10 bg-white md:bg-none  lg:h-screen"> */}
-      <div className=" font-montserrat bg-white px-5 p-10 lg:px-48 md:py-6 min-h-screen  lg:h-screen">
+      <div
+        className=" font-montserrat bg-white  px-5 lg:px-28 py-6 min-h-screen  lg:h-screen"
+        style={{
+          paddingTop: "2rem",
+          "@media (max-width: 768px)": {
+            paddingTop: "6rem",
+          },
+        }}
+      >
         <div className=" flex justify-center md:block mt-[25px] ">
           <p className=" bg-green  text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold mt-20 ">
             MADE IN NIGERIALOGO
@@ -44,7 +52,7 @@ function AuthLayout({ title, titleLink, children }) {
                 </ul>
               </div>
             </div>
-            <div className="pt-10 font-normal text-sm  ">{children}</div>
+            <div className=" font-normal text-sm  ">{children}</div>
           </div>
         </div>
         <div className="text-center text-sm font-semibold my-4 hidden md:block">
