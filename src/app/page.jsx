@@ -1,9 +1,7 @@
 import Container from "@/components/container/Container";
 import Header from "../components/header/Header";
-import Image from "next/image";
 import NavList from "@/components/section/NavList";
-import { CategoryList } from "./data";
-import NavLink from "@/components/section/NavLInk";
+import NavLink from "@/components/section/NavLink";
 import HeroSlider from "@/components/slider/HeroSlider";
 import Aside from "@/components/section/Aside";
 import AsideLink from "@/components/section/AsideLink";
@@ -12,12 +10,10 @@ import ProductItemContainer from "@/components/section/ProductItemContainer";
 import { trendingProductList } from "./data";
 import ProductListCard from "@/components/card/ProductListCard";
 import AsideWithImage from "@/components/section/AsideWithImage";
-import { Button } from "@/components/button/Button";
 import Banner from "@/components/banner/Banner";
 import ServiceCard from "@/components/card/ServiceCard";
 import ServiceCardItem from "@/components/card/ServiceCardItem";
 import { serviceCardItems } from "./data";
-import Link from "next/link";
 import Footer from "@/components/footer/Footer";
 import ServiceGroup from "@/components/group/ServiceGroup";
 import EventGroup from "@/components/group/EventGroup";
@@ -28,26 +24,10 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main className="relative">
-        <div className="absolute left-0 top-0 w-full overflow-hidden z-0">
-          {/* <Image src="" alt="campaign" /> */}
-        </div>
-        <div className="-mb-s relative z-10 container-wrapper">
-          <a href="#">
-            {/* <Image src="" alt="" /> */}
-            <p className="text-transparent">Hello world</p>
-          </a>
-        </div>
-        <Container>
+      <main className="relative mt-s z-10">
+        <Container className={`flex lg:bg-white lg:px-m py-s`}>
           <NavList>
-            {CategoryList.map((item, index) => (
-              <NavLink
-                key={item.id}
-                text={item.text}
-                href={item.href}
-                hyperLink={item.id === CategoryList[CategoryList.length - 1].id}
-              />
-            ))}
+            <NavLink />
           </NavList>
           <HeroSlider />
           <Aside>
@@ -63,7 +43,7 @@ const Home = () => {
         </Container>
       </main>
       {/* Hero Section */}
-      <Container className="flex-col">
+      <Container small className="flex-col">
         <h3 className="mb-s text-lg font-semibold">
           Selected Trending Products
         </h3>
@@ -78,7 +58,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Trending Products */}
-      <Container>
+      <Container className="bg-white mt-s flex shadow-md">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Automobiles"
@@ -98,7 +78,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* First Section */}
-      <Container>
+      <Container className="bg-white mt-s flex shadow-md">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Agriculture"
@@ -118,7 +98,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Second Section */}
-      <Container>
+      <Container className="bg-white mt-s flex shadow-md">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Fashion Accessories"
@@ -142,7 +122,7 @@ const Home = () => {
       {/* Forms */}
       <Banner />
       {/* Banner */}
-      <Container className="pl-0 pr-0 pt-0 pb-0 shadow-none bg-background flex flex-col">
+      <Container className="bg-background mt-s flex flex-col">
         <h2 className="text-center w-full text-xl text-dark">
           Sourcing Solution and Tailored Service
         </h2>

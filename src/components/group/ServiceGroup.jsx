@@ -5,26 +5,27 @@ import bua from "../../../public/assets/Bua.png";
 import { Button } from "../button/Button";
 const ServiceGroup = () => {
   return (
-    <Container className="bg-white flex flex-col">
+    <Container small className="bg-white flex flex-col">
       <div className="w-full pb-3.7 flex justify-start">
         <div className="pr-s w-24 h-10 overflow-hidden relative flex justify-center items-center">
           <Image
             src={bua}
-            className="object-fit object-center inline-block min-w-full min-h-full"
+            className="object-fit object-center inline-block"
             alt="logo"
+            priority={true}
             width={100}
             height={42}
           />
         </div>
         <div className="flex-auto">
-          <a href="#" className="text-md font-bold text-dark">
+          <a href="#" className="text-sm md:text-md font-bold text-dark">
             Dangote Group of Companies
           </a>
           <div className="flex text-sm">
             <p className="pr-s">
-              Member Since <span className="text-green">2023</span>{" "}
+              Member Since <span className="text-green">2023</span>
             </p>
-            <span className="flex text-green font-medium">
+            <span className="hidden xs:flex text-green font-medium">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -43,19 +44,21 @@ const ServiceGroup = () => {
             </span>
           </div>
         </div>
-        <div className="flex items-end">
-          <Button size="sm">View More</Button>
+        <div className="hidden md:flex items-end">
+          <Button size="sm" className="">
+            View More
+          </Button>
         </div>
       </div>
       {/* more content */}
-      <div className="w-full flex h-54">
-        <div className="basis-3/5 mr-s relative overflow-hidden group">
+      <div className="w-full flex flex-col md:flex-row md:h-54 gap-s">
+        <div className="w-full md:basis-3/5 h-32 md:h-auto relative rounded-md overflow-hidden group">
           <Image
             src="https://images.unsplash.com/photo-1546627223-50c21f27a669?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmFjdG9yeSUyMGJ1aWxkaW5nfGVufDB8fDB8fHww"
             alt=""
-            width={767}
-            height={220}
-            className="group-hover:scale-105 object-cover object-center rounded-md transition-transform ease-linear duration-200"
+            width={500}
+            height={327}
+            className="group-hover:scale-105 object-cover object-left-bottom transition-transform ease-linear duration-200"
           />
           <Link
             href="#"
@@ -81,27 +84,27 @@ const ServiceGroup = () => {
           </Link>
         </div>
         {/* first */}
-        <div className="basis-2/5 flex gap-s">
-          <div className="flex-1 relative rounded-md group overflow-hidden">
+        <div className="w-full md:basis-2/5 h-32 md:h-auto flex gap-s">
+          <div className="basis-1/2 relative rounded-md group overflow-hidden">
             <Image
               src="https://images.unsplash.com/photo-1610891015188-5369212db097?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjdG9yeSUyMGJ1aWxkaW5nfGVufDB8fDB8fHww"
               alt=""
-              width={235}
-              height={220}
-              className="group-hover:scale-105 object-cover object-center rounded-md transition-transform ease-linear duration-200"
+              width={500}
+              height={236}
+              className="group-hover:scale-105 w-full h-full absolute left-0 top-0 object-cover object-left-bottom  transition-transform ease-linear duration-200"
             />
             <Link
               href="#"
               className="absolute inset-0 bg-overlay text-white w-full h-full"
             ></Link>
           </div>
-          <div className="flex-1 relative rounded-md group overflow-hidden">
+          <div className="basis-1/2 relative w-full h-full rounded-md group overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1543304376-1ae7c2be5e59?q=80&w=1456&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="https://plus.unsplash.com/premium_photo-1714510332305-a7f0eae24adf?q=80&w=1476&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
               alt=""
-              width={235}
-              height={220}
-              className="group-hover:scale-105 object-cover object-center rounded-md transition-transform ease-linear duration-200"
+              width={738}
+              height={580}
+              className="group-hover:scale-105 w-full h-full object-cover object-left-bottom transition-transform ease-linear duration-200"
             />
             <Link
               href="#"

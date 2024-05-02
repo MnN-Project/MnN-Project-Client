@@ -1,10 +1,14 @@
 import { cn } from "../../libs/utils";
-const Container = ({ id, className, children }) => {
+const Container = ({ className, children, small }) => {
   return (
-    <section className="relative z-10 container-wrapper">
+    <section className="relative z-10 container-wrapper block">
       <div
         className={cn(
-          "bg-white py-s mt-s px-m flex shadow-sm relative",
+          `${className}`,
+          {
+            "bg-white py-s mt-s px-2xs lg:px-s flex shadow-sm relative md:px-m":
+              small,
+          },
           className
         )}
       >

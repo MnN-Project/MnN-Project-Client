@@ -5,12 +5,17 @@ import { Button } from "../button/Button";
 
 const EventGroup = () => {
   return (
-    <Container className="flex-col">
+    <Container small className="flex-col rounded-md">
       <div className="text-center relative overflow-hidden w-full">
-        <Button size="sm" className="absolute right-0 top-1/2 -translate-y-1/2">
+        <Button
+          size="sm"
+          className="hidden absolute right-0 top-1/2 -translate-y-1/2"
+        >
           View More
         </Button>
-        <div className="block w-96 mx-auto">
+        <div className="block w-full mx-auto">
+          {" "}
+          {/** w-96 */}
           <Link href="#" className="text-2xl font-bold">
             Trade Shows
           </Link>
@@ -20,8 +25,8 @@ const EventGroup = () => {
         </div>
       </div>
 
-      <div className="mt-s max-h-120 w-full flex">
-        <div className="flex-1 relative overflow-hidden">
+      <div className="mt-s w-full flex">
+        <div className="hidden md:block flex-1 relative rounded-md overflow-hidden">
           <Link href="#">
             <div className="absolute inset-0 w-full">
               <Image
@@ -40,14 +45,16 @@ const EventGroup = () => {
             </div>
           </Link>
         </div>
-        <div className="relative w-15"></div>
+        {/* Image Location */}
+        <div className="hidden w-[40px] md:block relative lg:w-15"></div>
+        {/* Hover Circle */}
         <div className="flex-1">
-          <ul className="max-h-120 overflow-hidden space-y-2">
+          <ul className="min-h-120 overflow-hidden flex flex-col justify-between">
             <li className="h-full inline-block overflow-hidden pb-3.7 w-full">
               <div className="flex relative items-center">
-                <div className="w-[30%] max-w-[185px] max-h-[123px] relative overflow-hidden">
+                <div className="w-1/3 max-w-[185px] max-h-32 relative overflow-hidden">
                   <Link href="#">
-                    <div className="w-full h-full mr-2xs text-center">
+                    <div className="w-full h-full mr-2xs text-center rounded-md overflow-hidden">
                       <Image
                         src="https://plus.unsplash.com/premium_photo-1661306543132-93937b4c242e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         width={178}
@@ -75,9 +82,9 @@ const EventGroup = () => {
             </li>
             <li className="h-full inline-block overflow-hidden pb-3.7 w-full">
               <div className="flex relative items-center">
-                <div className="w-[30%] max-w-[185px] max-h-[123px] relative overflow-hidden">
+                <div className="w-1/3 max-w-[185px] max-h-32 relative overflow-hidden">
                   <Link href="#">
-                    <div className="w-full h-full mr-2xs text-center">
+                    <div className="w-full h-full mr-2xs text-center rounded-md overflow-hidden">
                       <Image
                         src="https://plus.unsplash.com/premium_photo-1661306543132-93937b4c242e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         width={178}
@@ -103,11 +110,11 @@ const EventGroup = () => {
                 {/* end */}
               </div>
             </li>
-            <li className="h-full inline-block overflow-hidden pb-3.7 w-full">
+            <li className="h-full inline-block overflow-hidden w-full">
               <div className="flex relative items-center">
-                <div className="w-[30%] max-w-[185px] max-h-[123px] relative overflow-hidden">
+                <div className="w-1/3 max-w-[185px] max-h-32 relative overflow-hidden">
                   <Link href="#">
-                    <div className="w-full h-full mr-2xs text-center">
+                    <div className="w-full h-full mr-2xs text-center rounded-md overflow-hidden">
                       <Image
                         src="https://plus.unsplash.com/premium_photo-1661306543132-93937b4c242e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         width={178}
@@ -133,9 +140,9 @@ const EventGroup = () => {
                 {/* end */}
               </div>
             </li>
-            
           </ul>
         </div>
+        {/* Location */}
       </div>
     </Container>
   );

@@ -69,81 +69,81 @@ export const CategoryList = [
     href: "#",
     text: "Manufacturing & Processing Machinery",
   },
-  {
-    id: 2,
-    href: "#",
-    text: "Consumer Electronics",
-  },
-  {
-    id: 3,
-    href: "#",
-    text: "Transportation",
-  },
-  {
-    id: 4,
-    href: "#",
-    text: "Health & Medicine",
-  },
-  {
-    id: 5,
-    href: "#",
-    text: "Computer Products",
-  },
-  {
-    id: 6,
-    href: "#",
-    text: "Apparel & Accessories",
-  },
-  {
-    id: 7,
-    href: "#",
-    text: "Industrial Equipment & Components",
-  },
-  {
-    id: 8,
-    href: "#",
-    text: "Construction & Decoration",
-  },
-  {
-    id: 9,
-    href: "#",
-    text: "Sporting Goods & Recreation",
-  },
-  {
-    id: 10,
-    href: "#",
-    text: "Packaging & Printing",
-  },
-  {
-    id: 11,
-    href: "#",
-    text: "Arts & Crafts",
-  },
-  {
-    id: 12,
-    href: "#",
-    text: "Lights & Lighting",
-  },
-  {
-    id: 13,
-    href: "#",
-    text: "Light Industry & Daily Use",
-  },
-  {
-    id: 14,
-    href: "#",
-    text: "Auto, Motorcycle Parts & Accessories",
-  },
-  {
-    id: 15,
-    href: "#",
-    text: "Electrical & Electronics",
-  },
-  {
-    id: 16,
-    href: "#",
-    text: "More Categories",
-  },
+  // {
+  //   id: 2,
+  //   href: "#",
+  //   text: "Consumer Electronics",
+  // },
+  // {
+  //   id: 3,
+  //   href: "#",
+  //   text: "Transportation",
+  // },
+  // {
+  //   id: 4,
+  //   href: "#",
+  //   text: "Health & Medicine",
+  // },
+  // {
+  //   id: 5,
+  //   href: "#",
+  //   text: "Computer Products",
+  // },
+  // {
+  //   id: 6,
+  //   href: "#",
+  //   text: "Apparel & Accessories",
+  // },
+  // {
+  //   id: 7,
+  //   href: "#",
+  //   text: "Industrial Equipment & Components",
+  // },
+  // {
+  //   id: 8,
+  //   href: "#",
+  //   text: "Construction & Decoration",
+  // },
+  // {
+  //   id: 9,
+  //   href: "#",
+  //   text: "Sporting Goods & Recreation",
+  // },
+  // {
+  //   id: 10,
+  //   href: "#",
+  //   text: "Packaging & Printing",
+  // },
+  // {
+  //   id: 11,
+  //   href: "#",
+  //   text: "Arts & Crafts",
+  // },
+  // {
+  //   id: 12,
+  //   href: "#",
+  //   text: "Lights & Lighting",
+  // },
+  // {
+  //   id: 13,
+  //   href: "#",
+  //   text: "Light Industry & Daily Use",
+  // },
+  // {
+  //   id: 14,
+  //   href: "#",
+  //   text: "Auto, Motorcycle Parts & Accessories",
+  // },
+  // {
+  //   id: 15,
+  //   href: "#",
+  //   text: "Electrical & Electronics",
+  // },
+  // {
+  //   id: 16,
+  //   href: "#",
+  //   text: "More Categories",
+  // },
 ];
 
 export const CategoryItems = [
@@ -188,7 +188,7 @@ export const serviceCardItems = [
         others: [
             {
                 id: 1,
-                src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHN8ZW58MHx8MHx8fDA%3D',
+                src: 'https://images.unsplash.com/photo-1686715612818-11ab5b79770b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 text: 'Textile & Apparel',
             },
             {
@@ -211,7 +211,7 @@ export const serviceCardItems = [
         others: [
             {
                 id: 1,
-                src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHN8ZW58MHx8MHx8fDA%3D',
+                src: 'https://images.unsplash.com/photo-1686715612818-11ab5b79770b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 text: 'Textile & Apparel',
             },
             {
@@ -234,7 +234,7 @@ export const serviceCardItems = [
         others: [
             {
                 id: 1,
-                src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHN8ZW58MHx8MHx8fDA%3D',
+                src: 'https://images.unsplash.com/photo-1686715612818-11ab5b79770b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 text: 'Textile & Apparel',
             },
             {
@@ -257,7 +257,7 @@ export const serviceCardItems = [
         others: [
             {
                 id: 1,
-                src: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cHJvZHVjdHN8ZW58MHx8MHx8fDA%3D',
+                src: 'https://images.unsplash.com/photo-1686715612818-11ab5b79770b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 text: 'Textile & Apparel',
             },
             {
