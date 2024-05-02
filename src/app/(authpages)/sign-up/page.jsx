@@ -178,7 +178,7 @@ const SignUp = () => {
                   id="checkbox-select"
                   type="checkbox"
                   value=""
-                  className="w-4 h-4 mr-2 md:mr-1 text-white accent-pinkish-gray rounded-sm"
+                  className="w-4 h-4 mr-2 md:mr-1 text-green accent-pinkish-gray rounded-sm"
                 />
                 <label
                   htmlFor="checkbox-select"
