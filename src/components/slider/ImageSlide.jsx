@@ -4,25 +4,31 @@ import { cn } from "@/libs/utils";
 const slides = [
   {
     id: 1,
-    url: "https://images.unsplash.com/photo-1665254726326-7ba534a5b466?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
+    url: "https://images.unsplash.com/photo-1633596683562-4a47eb4983c5?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "shop",
     href: "#",
   },
   {
     id: 2,
-    url: "https://images.unsplash.com/photo-1688598272938-c9f753aa8e73?q=80&w=1373&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    url: "https://images.unsplash.com/photo-1617791160588-241658c0f566?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "beach",
     href: "#",
   },
   {
     id: 3,
-    url: "https://images.unsplash.com/photo-1532680552323-28232070e5f9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8",
+    url: "https://images.unsplash.com/photo-1643916861364-02e63ce3e52f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE5fHx8ZW58MHx8fHx8",
     title: "boat",
     href: "#",
   },
   {
     id: 4,
-    url: "https://images.unsplash.com/photo-1576786233127-0adb2e08d69a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHx8",
+    url: "https://images.unsplash.com/photo-1631700611307-37dbcb89ef7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8",
+    title: "house",
+    href: "#",
+  },
+  {
+    id: 5,
+    url: "https://images.unsplash.com/photo-1626544827763-d516dce335e2?q=80&w=1567&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "house",
     href: "#",
   },
