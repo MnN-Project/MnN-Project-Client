@@ -20,7 +20,7 @@ const ResendOTP = () => {
     if (!error) {
       console.log(data);
     } else {
-      console.log("there is an error");
+      console.log("Wrong input");
     }
   };
   return (
