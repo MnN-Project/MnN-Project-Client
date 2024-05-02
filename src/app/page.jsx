@@ -28,17 +28,8 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main className="relative">
-        <div className="absolute left-0 top-0 w-full overflow-hidden z-0">
-          {/* <Image src="" alt="campaign" /> */}
-        </div>
-        <div className="-mb-s relative z-10 container-wrapper">
-          <a href="#">
-            {/* <Image src="" alt="" /> */}
-            <p className="text-transparent">Hello world</p>
-          </a>
-        </div>
-        <Container>
+      <main className="relative mt-s">
+        <Container className={`flex lg:bg-white lg:px-m py-s`}>
           <NavList>
             {CategoryList.map((item, index) => (
               <NavLink
@@ -63,7 +54,7 @@ const Home = () => {
         </Container>
       </main>
       {/* Hero Section */}
-      <Container className="flex-col">
+      <Container small className="flex-col">
         <h3 className="mb-s text-lg font-semibold">
           Selected Trending Products
         </h3>
@@ -78,7 +69,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Trending Products */}
-      <Container>
+      <Container small className="px-0 md:px-2xs md:py-2xs pt-0 pb-0">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Automobiles"
@@ -98,7 +89,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* First Section */}
-      <Container>
+      <Container small className="px-0 md:px-2xs md:py-2xs pt-0 pb-0">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Agriculture"
@@ -118,7 +109,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Second Section */}
-      <Container>
+      <Container small className="px-0 md:px-2xs md:py-2xs pt-0 pb-0">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Fashion Accessories"
@@ -142,7 +133,10 @@ const Home = () => {
       {/* Forms */}
       <Banner />
       {/* Banner */}
-      <Container className="pl-0 pr-0 pt-0 pb-0 shadow-none bg-background flex flex-col">
+      <Container
+        small
+        className="pl-0 pr-0 pt-0 pb-0 shadow-none bg-background flex flex-col"
+      >
         <h2 className="text-center w-full text-xl text-dark">
           Sourcing Solution and Tailored Service
         </h2>

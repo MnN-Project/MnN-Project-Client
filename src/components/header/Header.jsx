@@ -20,6 +20,4 @@ const Header = ({ className, ...props }) => {
   );
 };
 
-
 export default Header;
-
