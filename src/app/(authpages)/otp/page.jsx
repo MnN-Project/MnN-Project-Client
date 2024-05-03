@@ -1,20 +1,46 @@
+"use client";
 import Link from "next/link";
+import { useFormik } from "formik";
+// import * as Yup from 'yup'
+import * as Yup from "yup";
 
 const styles = {
   backgroundImage: `url('../../../assets/otpSideImage.png')`,
 };
 
 const VerifyOtp = () => {
+  const validateOTP = Yup.object({
+    firstOTP: Yup.number().required(),
+    secondOTP: Yup.number().required(),
+    thirdOTP: Yup.number().required(),
+    fourthOTP: Yup.number().required(),
+  });
+
+  const formik = useFormik({
+    initialValues: {
+      firstOTP: "",
+      secondOTP: "",
+      thirdOTP: "",
+      fourthOTP: "",
+    },
+    validationSchema: validateOTP,
+
+    onSubmit: (values) => {
+      console.log(values);
+    },
+  });
   return (
     <div className=" font-montserrat lg:px-48 md:py-6 p-10 bg-white md:bg-none  lg:h-screen">
-      <div className="flex justify-center md:block">
-        <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold  ">
-          MADE IN NIGERIALOGO
-        </p>
-      </div>
+      <Link href="/">
+        <div className="flex justify-center md:block">
+          <p className=" bg-green text-white text-sm md:mb-2 w-fit px-3 py-2 mb-4 font-bold  ">
+            MADE IN NIGERIALOGO
+          </p>
+        </div>
+      </Link>
       <div className=" md:mx-16 ">
         <p className=" text-right text-base mb-2 text-black hidden md:block">
-          Already a member? <Link href='/login'>Sign in</Link> 
+          Already a member? <Link href="/login">Sign in</Link>
         </p>
 
         <div className="  min-h-[75vh] bg-white  md:shadow md:grid grid-cols-2">
@@ -27,10 +53,7 @@ const VerifyOtp = () => {
               Your One Stop Website
             </p>
             <p className="w-[50%] text-base mb-2">Enjoy Our Unlimited Offers</p>
-            <div
-              className="bg-[08AB70] bg-green bg-opacity-[50%] pl-14 text-white text-base font-normal leading-10 py-5 w-[80%] "
-             
-            >
+            <div className="bg-[08AB70] bg-green bg-opacity-[50%] pl-14 text-white text-base font-normal leading-10 py-5 w-[80%] ">
               <ul>
                 <li>Unlimited Posting</li>
                 <li>Featured products</li>
@@ -43,54 +66,89 @@ const VerifyOtp = () => {
             <p className="text-[#1F7CD1]">info@made-n-nigeria.com</p>
             <div className="text-center mt-10 leading-9">
               <p>Confirm the code sent to your inbox</p>
-              <div className="flex justify-center my-4">
-                <div className="mr-3">
-                  <input
-                    type="text"
-                    className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
-                  />
+              <form action="" onSubmit={formik.handleSubmit}>
+                <div className="flex justify-center my-4">
+                  <div className="mr-3">
+                    <input
+                      type="text"
+                      value={formik.values.firstOTP}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      name="firstOTP"
+                      className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
+                    />
+                  </div>
+                  <div className="mr-3">
+                    <input
+                      type="text"
+                      value={formik.values.secondOTP}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      name="secondOTP"
+                      className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
+                    />
+                  </div>
+                  <div className="mr-3">
+                    <input
+                      type="text"
+                      value={formik.values.thirdOTP}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      name="thirdOTP"
+                      className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
+                    />
+                  </div>
+                  <div className="mr-3">
+                    <input
+                      type="text"
+                      value={formik.values.fourthOTP}
+                      onChange={formik.handleChange}
+                      onBlur={formik.handleBlur}
+                      name="fourthOTP"
+                      className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
+                    />
+                  </div>
+
+                  {/* #1F7CD1 */}
                 </div>
-                <div className="mr-3">
-                  <input
-                    type="text"
-                    className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
-                  />
-                </div>
-                <div className="mr-3">
-                  <input
-                    type="text"
-                    className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
-                  />
-                </div>
-                <div className="mr-3">
-                  <input
-                    type="text"
-                    className=" outline-none h-['50px'] w-9 rounded bg-light-green text-center bg-opacity-[17%]   "
-                  />
-                </div>
-                {/* #1F7CD1 */}
-              </div>
+                <button
+                  type="submit"
+                  className="py-3 font-bold rounded text-white bg-green w-[90%] lg:w-[60%] my-5"
+                >
+                  Send
+                </button>
+              </form>
               <p>Did not receive email? Check Spam</p>
-              <Link href={"#"} className="text-[#1F7CD1]">
-                Resend Confirmation
+              <Link href={"/resend-otp"} className="text-[#1F7CD1]">
+                Resend OTP
               </Link>
             </div>
           </div>
         </div>
       </div>
       <div className="text-center text-sm font-semibold my-4 hidden md:block">
-        <Link href={"#"} className=" hover:text-[#1F7CD1]">About Us</Link>
+        <Link href={"#"} className=" hover:text-[#1F7CD1]">
+          About Us
+        </Link>
         <span className="mx-4">|</span>
-        <Link href={"#"} className=" hover:text-[#1F7CD1]">FAQ</Link>
+        <Link href={"#"} className=" hover:text-[#1F7CD1]">
+          FAQ
+        </Link>
 
         <span className="mx-4">|</span>
-        <Link href={"#"} className=" hover:text-[#1F7CD1]">Help</Link>
+        <Link href={"#"} className=" hover:text-[#1F7CD1]">
+          Help
+        </Link>
 
         <span className="mx-4">|</span>
-        <Link href={"#"} className=" hover:text-[#1F7CD1]">Complaint</Link>
+        <Link href={"#"} className=" hover:text-[#1F7CD1]">
+          Complaint
+        </Link>
 
         <span className="mx-4">|</span>
-        <Link href={"#"} className=" hover:text-[#1F7CD1]">Contact</Link>
+        <Link href={"#"} className=" hover:text-[#1F7CD1]">
+          Contact
+        </Link>
       </div>
     </div>
   );

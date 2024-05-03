@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import Container from "../container/Container";
-import bua from "../../public/Bua.png";
+import bua from "../../../public/assets/Bua.png";
 import { Button } from "../button/Button";
 const ServiceGroup = () => {
   return (

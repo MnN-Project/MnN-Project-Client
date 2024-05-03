@@ -81,9 +81,10 @@ const Home = () => {
       <Container>
         <AsideWithImage
           buttonText="Source Now"
-          headingText="Automobile"
-          textStyle="text-white"
-          src="https://images.unsplash.com/photo-1584809394311-364392a5011b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHZlaGljbGV8ZW58MHx8MHx8fDA%3D"
+          headingText="Automobiles"
+          textStyle="text-black"
+          backgroundColor="#DBFBEF"
+          src="/assets/Nord-2.png"
         />
         <ProductItemContainer>
           {productListData.map((item) => (
@@ -100,9 +101,10 @@ const Home = () => {
       <Container>
         <AsideWithImage
           buttonText="Source Now"
-          headingText="Automobile"
+          headingText="Agriculture"
+          backgroundColor="#056442"
           textStyle="text-white"
-          src="https://images.unsplash.com/photo-1511350224460-4a95f1cf2e88?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHZlaGljbGV8ZW58MHx8MHx8fDA%3D"
+          src="/assets/Milk.png"
         />
         <ProductItemContainer>
           {productListData.map((item) => (
@@ -119,9 +121,10 @@ const Home = () => {
       <Container>
         <AsideWithImage
           buttonText="Source Now"
-          headingText="Automobile"
+          headingText="Fashion Accessories"
           textStyle="text-white"
-          src="https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHZlaGljbGV8ZW58MHx8MHx8fDA%3D"
+          backgroundColor="#01150e"
+          src="/assets/Tailor-shirts.png"
         />
         <ProductItemContainer>
           {productListData.map((item) => (
@@ -135,7 +138,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Third Section */}
-     <FormGroup />
+      <FormGroup />
       {/* Forms */}
       <Banner />
       {/* Banner */}

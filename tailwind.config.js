@@ -12,7 +12,7 @@ module.exports = {
       white: "#fff",
       gray: "#D9D9D9",
       "light-gray": "#F0F0F4",
-      "dark-gray": "rgb(136, 136, 136)",
+      "dark-gray": "#888888",
       background: "#f2f2f2",
       dark: "#0F172A",
       blue: "#0060df",
@@ -86,7 +86,7 @@ module.exports = {
       },
       maxHeight: {
         120: "25rem", //400px
-      }
+      },
     },
   },
   plugins: [
