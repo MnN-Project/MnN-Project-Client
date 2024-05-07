@@ -92,7 +92,7 @@ const Navbar = ({ sticky }) => {
           </span>
         </div>
         {/* Left */}
-        <div className="hidden -mr-[3px] text-[14px] lg:flex">
+        <div className="hidden -mr-[3px] text-sm lg:flex">
           <NavbarLink text="Supplier" />
           <NavbarLink text="Buyers" />
           <span className="flex-shrink-0 inline-block flex-auto h-auto mr-5.5 -ml-1.3 mt-2xs text-gray">
