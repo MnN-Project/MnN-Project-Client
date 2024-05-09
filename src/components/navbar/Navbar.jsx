@@ -1,18 +1,23 @@
 "use client";
 import { TfiMenuAlt } from "react-icons/tfi";
 import NavbarLink from "./NavbarLink";
+import { cn } from "@/libs/utils";
 
-const Navbar = () => {
+const Navbar = ({ sticky }) => {
   return (
-    <div className="relative px-s -mx-s border-t border-gray text-sm">
+    <div
+      className={cn(`relative px-s -mx-2xs border-t border-gray text-sm`, {
+        hidden: sticky,
+      })}
+    >
       <div className="max-w-8xl mx-auto justify-between flex items-center">
-        <div className="flex-1 flex items-center">
+        <div className="flex items-center">
           <span className="flex-grow-0 flex-shrink-0 flex-auto h-auto mr-0">
             <div className="-ml-2xs">
-              <div className="relative">
-                <div className="py-2xs pl-xs pr-s whitespace-nowrap group">
+              <div className="relative group">
+                <div className="py-2xs pl-xs z-50 pr-s relative whitespace-nowrap group-hover:active group-hover:hover-active">
                   <a
-                    className="transition-colors group duration-150 ease-out whitespace-nowrap group-hover:text-green"
+                    className="transition-colors group duration-150 ease-out whitespace-nowrap group-hover:text-green z-20"
                     href="#"
                   >
                     <TfiMenuAlt className="inline-block align-middle text-base mr-[3px] -mt-0.5 whitespace-nowrap group-hover:text-green" />
@@ -34,9 +39,34 @@ const Navbar = () => {
                   </a>
                 </div>
                 {/* content */}
-                <div className="hidden">
-                  <div className="">Category items</div>
-                  <div className="">Additional category items</div>
+                <div className="hidden group-hover:inline-block w-[550px] left-0 p-3.7 rounded-md rounded-tl-none absolute top-full z-50 bg-white shadow-category">
+                  <div className="flex flex-wrap -mx-1.3 text-sm">
+                    <div className="basis-1/2">
+                      <ul className="px-1.3">
+                        <li>
+                          <a
+                            href="#"
+                            className="flex items-center py-1.3 font-medium hover:text-green"
+                          >
+                            Agriculture & Food
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    {/* first category */}
+                    <div className="basis-1/2">
+                      <ul className="px-1.3">
+                        <li>
+                          <a
+                            href="#"
+                            className="flex items-center py-1.3 font-medium hover:text-green"
+                          >
+                            Agriculture & Food
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
                 </div>
                 {/* end content */}
               </div>
@@ -49,16 +79,22 @@ const Navbar = () => {
             <div className="flex">
               <div className="flex-[0_0_auto] flex ">
                 <NavbarLink text="Why Choose Us" />
-                <NavbarLink text="Verified Sellers" />
-                <NavbarLink text="Top rated Products" />
+                <NavbarLink
+                  text="Verified Sellers"
+                  className="sxl:block hidden"
+                />
+                <NavbarLink
+                  text="Top rated Products"
+                  className="sxl:block hidden"
+                />
               </div>
             </div>
           </span>
         </div>
         {/* Left */}
-        <div className="flex pl-2xl -mr-[3px] text-[14px]">
-          <NavbarLink text="Supplier Guide" />
-          <NavbarLink text="Buyers Guide" />
+        <div className="hidden -mr-[3px] text-sm lg:flex">
+          <NavbarLink text="Supplier" />
+          <NavbarLink text="Buyers" />
           <span className="flex-shrink-0 inline-block flex-auto h-auto mr-5.5 -ml-1.3 mt-2xs text-gray">
             |
           </span>

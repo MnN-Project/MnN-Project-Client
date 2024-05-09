@@ -1,7 +1,7 @@
 import Image from "next/image";
 const ProductListCard = ({ image, text, item }) => {
   return item ? (
-    <div className="relative border border-light-gray w-1/2 sm:w-1/4">
+    <div className="relative border border-t-0 border-l-0 border-light-gray w-1/2 sm:w-1/4">
       <div className="relative block pt-m px-m pb-xs group">
         <div className="text-u-base leading-6 h-12 overflow-hidden z-2 text-wrap group-hover:text-green text-dark transition-colors ease-in-out delay-150">
           {text}
