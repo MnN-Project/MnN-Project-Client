@@ -54,6 +54,7 @@ const Home = () => {
         </Container>
       </main>
       {/* Hero Section */}
+      
       <Container small className="flex-col">
         <h3 className="mb-s text-lg font-semibold">
           Selected Trending Products
