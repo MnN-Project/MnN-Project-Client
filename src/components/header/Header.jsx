@@ -1,19 +1,30 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { cn } from "../../libs/utils";
 import Logo from "./Logo";
 import Navigation from "./Navigation";
 import Navbar from "../navbar/Navbar";
 
 const Header = ({ className, ...props }) => {
+  
   const [sticky, setSticky] = useState(false);
-  window.addEventListener("scroll", function () {
-    if (this.window.scrollY > 123) {
-      setSticky(true);
-    } else {
-      setSticky(false);
-    }
-  });
+   useEffect(() => {
+     const handleScroll = () => {
+       if (window.scrollY > 123) {
+         setSticky(true);
+       } else {
+         setSticky(false);
+       }
+     };
+
+     window.addEventListener("scroll", handleScroll);
+
+     return () => {
+       window.removeEventListener("scroll", handleScroll);
+     };
+   }, []); 
+
+
   return (
     <header
       className={cn(`pt-5 w-full bg-white container-wrapper ${className}`, {

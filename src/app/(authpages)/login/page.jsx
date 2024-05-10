@@ -54,7 +54,7 @@ const Login = () => {
 
         <div className="w-[85%] md:w-full mx-auto mt-16 md:mt-0 md:mx-0 md:flex md:flex-col md:items-center md:justify-center md:rounded-sm rounded-lg ">
           <div className="md:w-[70%] md:h-[550px] md:flex shadow-md rounded-lg">
-            <div class="hidden md:block md:basis-[50%] rounded-sm bg-[url('/assets/loginBg.jpg')] bg-cover bg-center bg-no-repeat">
+            <div className="hidden md:block md:basis-[50%] rounded-sm bg-[url('/assets/loginBg.jpg')] bg-cover bg-center bg-no-repeat">
               <div className="w-full h-full flex flex-col items-center justify-center">
                 <div>
                   <div className="md:w-fit rounded-sm">
