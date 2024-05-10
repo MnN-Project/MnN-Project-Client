@@ -7,17 +7,18 @@ module.exports = {
   ],
   theme: {
     colors: {
-      green: "#08AB70",
-      "light-green": "#2BE6A2",
+      green: "#16a34a",
+      "light-green": "#22c55e",
       white: "#fff",
       gray: "#D9D9D9",
-      "light-gray": "#F0F0F4",
+      "light-gray": "#f9fafb",
       "dark-gray": "#888888",
       background: "#f2f2f2",
       dark: "#0F172A",
       blue: "#0060df",
       transparent: "transparent",
       overlay: "rgba(0,0,0,.4)",
+      danger: "#ff0000",
     },
     fontFamily: {
       montserrat: ["Montserrat", "sans-serif"],
