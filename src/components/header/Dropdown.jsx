@@ -6,6 +6,7 @@ import { FaRegUser } from "react-icons/fa6";
 import { BsEnvelope } from "react-icons/bs";
 import { BsCart2 } from "react-icons/bs";
 import { TbTargetArrow } from "react-icons/tb";
+import Link from "next/link";
 
 const Dropdown = ({ sticky, className }) => {
   return (
@@ -13,7 +14,7 @@ const Dropdown = ({ sticky, className }) => {
       <div className="wrapper">
         <div className="relative space-x-2 xl:space-x-3.5 flex text-center">
           <NavHoverLink
-            buttonText="Post My RFQ"
+            buttonText="Post Requests"
             className="text-green hidden sm:block"
           >
             <TbTargetArrow className="relative text-[23px] inline-block no-underline text-green" />
@@ -21,12 +22,14 @@ const Dropdown = ({ sticky, className }) => {
           {/* link 1 */}
           {!sticky && (
             <>
-              <NavHoverLink
-                buttonText="Sign in/ Join"
-                className="group-hover:text-light-green hidden lg:block"
-              >
-                <FaRegUser className="relative text-[23px] inline-block no-underline group-hover:text-green" />
-              </NavHoverLink>
+             
+                <NavHoverLink destination="/login"
+                   buttonText="Sign in/ Join"
+                  className="group-hover:text-light-green hidden lg:block"
+                >
+                  <FaRegUser className="relative text-[23px] inline-block no-underline group-hover:text-green" />
+                </NavHoverLink>
+    
               <Tooltip className="min-w-[385px]"></Tooltip>
               {/* link 3 */}
               <NavHoverLink
@@ -54,16 +57,20 @@ const Dropdown = ({ sticky, className }) => {
   );
 };
 
-const NavHoverLink = ({ children, buttonText, className }) => {
+const NavHoverLink = ({ children, buttonText, className, destination }) => {
   return (
     <a
-      href="#"
+      href={destination ? destination : "#"}
       className={cn(
         `inline-flex ${className} flex-col group transition-colors duration-150 ease-out items-center no-underline`
       )}
     >
       {children}
-      <div className={`text-xs xl:text-sm font-medium text-nowrap group-hover:text-green`}>{buttonText}</div>
+      <div
+        className={`text-xs xl:text-sm font-medium text-nowrap group-hover:text-green`}
+      >
+        {buttonText}
+      </div>
     </a>
   );
 };
