@@ -84,7 +84,7 @@ const ForgotPassword = () => {
                       ariaDescribedby="terms"
                       type="checkbox"
                       className="w-4 h-4 border border-gray rounded text-green focus:ring-3 focus:ring-green"
-                      required=""
+                      required="true"
                     />
                   </div>
                   <div className="ml-3 text-sm w-full">
