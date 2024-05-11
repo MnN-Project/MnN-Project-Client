@@ -42,7 +42,7 @@ const Login = () => {
           />
           Made In Nigeria
         </a>
-        <div className="w-full bg-white rounded-lg border border-gray md:mt-0 sm:max-w-md xl:p-0">
+        <div className="w-full bg-white rounded-lg border border-light-gray md:mt-0 sm:max-w-md xl:p-0">
           <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
             <h1 className="text-lg font-bold leading-tight tracking-tight text-dark md:text-2xl">
               Welcome back
@@ -77,7 +77,7 @@ const Login = () => {
                   name="password"
                   id="password"
                   placeholder="*******"
-                  className="bg-light-gray border border-gray text-dark sm:text-sm rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
+                  className="bg-light-gray border border-gray text-dark sm:text-sm font-bold rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
                   required=""
                 />
                 <span className="text-danger font-light text-sm"></span>
@@ -86,7 +86,7 @@ const Login = () => {
                 <div className="flex items-center h-5">
                   <input
                     id="terms"
-                    ariaDescribedby="terms"
+                    aria-describedby="terms"
                     type="checkbox"
                     className="w-4 h-4 border border-gray rounded text-green focus:ring-3 focus:ring-green"
                     required=""

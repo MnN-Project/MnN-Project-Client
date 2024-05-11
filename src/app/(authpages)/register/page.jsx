@@ -1,7 +1,6 @@
 "use client";
-
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
@@ -39,7 +38,7 @@ const Login = () => {
       <div className="xl:mb-0 xl:col-span-6 lg:flex flex-col justify-between mr-auto hidden lg:col-span-5">
           <div>
               <a href="/" className="lg:mb-10 text-slate-900 font-semibold text-2xl inline-flex items-center">
-                  <img className="h-8 w-8 mr-2 block max-w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" />
+                  <Image className="h-8 w-8 mr-2 block max-w-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" width={32} height={32} />
                   Made In Nigeria    
               </a>
               <div className="flex">
@@ -53,7 +52,7 @@ const Login = () => {
                   <svg className="fill-green shrink-0 w-5 h-5 block mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path></svg>
                   <div>
                       <h3 className="text-slate-900 font-bold leading-4 mb-2">Support any business model</h3>
-                      <p className="text-slate-600 mb-2 font-light">Place your business that you don't want to share with the world in private.</p>
+                      <p className="text-slate-600 mb-2 font-light">Place your business that you {`don't`} want to share with the world in private.</p>
                   </div>
               </div>
               <div className="flex pt-8">
@@ -89,7 +88,7 @@ const Login = () => {
       </div>
       <div className="text-center mb-6 md:hidden">
           <a href="/" className="inline-flex items-center text-2xl font-semibold text-center">
-              <img className="mr-2 block max-w-full h-8 w-8" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" />
+              <Image className="mr-2 block max-w-full h-8 w-8" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo" width={32} height={32} />
               Made in Nigeria
           </a>
               </div>
@@ -131,7 +130,7 @@ const Login = () => {
                   </div>
                   <div className="mt-4 lg:mt-2">
                       <label htmlFor="password" className="mb-2 font-medium text-sm block">Confirm Password</label>
-                              <input type="password" name="password" id="password" placeholder="*******" className="bg-light-gray sm:text-sm p-[10px] border border-gray rounded-lg w-full block focus-within:border-green focus:ring-green" required="" />
+                              <input type="password" name="password" id="confirm-password" placeholder="*******" className="bg-light-gray sm:text-sm p-[10px] border border-gray rounded-lg w-full block focus-within:border-green focus:ring-green" required="" />
                               <span className="text-sm text-danger font-light hidden">please enter password</span>
                   </div>
                   <div className="flex flex-start mt-4 lg:mt-6">
