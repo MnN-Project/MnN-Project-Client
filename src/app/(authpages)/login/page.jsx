@@ -1,7 +1,6 @@
 "use client";
-
 import Link from "next/link";
-// import Image from "next/image";
+import Image from "next/image";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 
@@ -35,8 +34,10 @@ const Login = () => {
           href="/"
           className="flex items-center mb-6 text-2xl font-semibold text-dark"
         >
-          <img
+          <Image
             className="w-8 h-8 mr-2 inline-block"
+            width={32}
+            height={32}
             src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
             alt="logo"
           />
@@ -49,34 +50,22 @@ const Login = () => {
             </h1>
             <form className="space-y-4" action="#">
               <div>
-                <label
-                  htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-dark"
-                >
-                  Your email
-                </label>
                 <input
                   type="email"
                   name="email"
                   id="email"
                   className="bg-light-gray border border-gray text-dark sm:text-sm rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
-                  placeholder="name@company.com"
+                  placeholder="Enter Email"
                   required=""
                 />
                 <span className="text-danger font-light text-sm"></span>
               </div>
               <div>
-                <label
-                  htmlFor="password"
-                  className="block mb-2 text-sm font-medium text-dark"
-                >
-                  Password
-                </label>
                 <input
                   type="password"
                   name="password"
                   id="password"
-                  placeholder="*******"
+                  placeholder="Password"
                   className="bg-light-gray border border-gray text-dark sm:text-sm font-bold rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
                   required=""
                 />
@@ -108,10 +97,10 @@ const Login = () => {
                 type="submit"
                 className="w-full text-white bg-green hover:bg-light-green focus:ring-4 focus:outline-none focus:ring-green font-medium rounded-lg text-sm px-5 py-2.5 text-center"
               >
-                Login
+                Sign in
               </button>
               <p className="text-sm font-light text-dark-gray">
-                Already have an account?
+                Already have an account?{" "}
                 <a
                   href="/register"
                   className="font-medium text-green hover:underline"
