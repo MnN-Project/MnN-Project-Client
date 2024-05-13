@@ -65,7 +65,7 @@ const Login = () => {
                   type="password"
                   name="password"
                   id="password"
-                  placeholder="*******"
+                  placeholder="Password"
                   className="bg-light-gray border border-gray text-dark sm:text-sm font-bold rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
                   required=""
                 />
