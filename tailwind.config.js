@@ -32,6 +32,7 @@ module.exports = {
       base: "1rem", //16px
       sm: "0.875rem", //14px
       xs: "0.75rem", //12px
+      '2xs': "0.688rem", //11px
     },
     screens: {
       "2xs": "28rem", //448px
