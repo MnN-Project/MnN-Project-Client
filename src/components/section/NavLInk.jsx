@@ -27,7 +27,7 @@ export const NavLink = () => {
   return (
     <>
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Manufacturing & Processing Machinery
         </span>
@@ -40,65 +40,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* first */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Consumer Electronics 
         </span>
@@ -111,58 +111,58 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
@@ -608,65 +608,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* Nine */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Recreation 
         </span>
@@ -679,65 +679,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* Ten */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Transportation 
         </span>
@@ -750,65 +750,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* eleven */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Arts & Crafts 
         </span>
@@ -821,65 +821,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* Twelve */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Medicine & Health 
         </span>
@@ -892,65 +892,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* Thirteen */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Printing & Packaging 
         </span>
@@ -963,65 +963,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* fourteen */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3 hover:text-green ">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
           Computer Products 
         </span>
@@ -1034,65 +1034,65 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>
       </li>
       {/* fifteen */}
     <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-      <a href="#" className="block text-sm whitespace-nowrap group  py-1.3">
+      <a href="/category" className="block text-sm whitespace-nowrap group  py-1.3">
         <span className={cn("text-blue py-3xs transition-colors duration-150")}>
           More Categories 
         </span>
@@ -1105,58 +1105,58 @@ export const NavLink = () => {
               <div className="w-1/3">
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
                 <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Agriculture Machinery</h3>
-                  <a href="#" className="pb-2xs capitalize">Agricultural Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Feed Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Live Stock Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Tiller</a>
-                  <a href="#" className="pb-2xs capitalize">Harvesting Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Agricultural Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Feed Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Live Stock Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Tiller</a>
+                  <a href="/category" className="pb-2xs capitalize">Harvesting Machine</a>
                 </div>
               </div>
               <div className="w-1/3">
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               <div className="h-[181px] px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Machine Tools</h3>
-                  <a href="#" className="pb-2xs capitalize">CNC Machine Tools</a>
-                  <a href="#" className="pb-2xs capitalize">Lathe</a>
-                  <a href="#" className="pb-2xs capitalize">Milling Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Grinding Machine</a>
-                  <a href="#" className="pb-2xs capitalize">Drilling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">CNC Machine Tools</a>
+                  <a href="/category" className="pb-2xs capitalize">Lathe</a>
+                  <a href="/category" className="pb-2xs capitalize">Milling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Grinding Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Drilling Machine</a>
                 </div>
               </div>
               <div className="w-1/3 px-2xs">
                 <div className="px-2xs text-sm">
                   <h3 className="text-sm font-bold block py-2xs overflow-hidden text-ellipsis whitespace-nowrap">Other Machinery & Parts</h3>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
-                  <a href="#" className="pb-2xs capitalize">Metallic Processing Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Laser Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Mould</a>
-                  <a href="#" className="pb-2xs capitalize">Textile Machinery & Parts</a>
-                  <a href="#" className="pb-2xs capitalize">Paper Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Mixing Equipment</a>
-                  <a href="#" className="pb-2xs capitalize">Rubber Machinery</a>
-                  <a href="#" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
-                  <a href="#" className="pb-2xs capitalize">Crushing and Culling Machine</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Foods Beverages and Ce...</a>
+                  <a href="/category" className="pb-2xs capitalize">Metallic Processing Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Laser Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Mould</a>
+                  <a href="/category" className="pb-2xs capitalize">Textile Machinery & Parts</a>
+                  <a href="/category" className="pb-2xs capitalize">Paper Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Chemical Equipment & Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Cutting & Fold-Bend Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Mixing Equipment</a>
+                  <a href="/category" className="pb-2xs capitalize">Rubber Machinery</a>
+                  <a href="/category" className="pb-2xs capitalize">Machinery For Garment,Shoes, A...</a>
+                  <a href="/category" className="pb-2xs capitalize">Crushing and Culling Machine</a>
                 </div>
               </div>
             </div>
-            <a href="#" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
+            <a href="/category" className="mb-2xs text-sm font-medium text-blue">More Categories</a>
           </div>
         </div>
       </div>

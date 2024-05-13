@@ -195,7 +195,7 @@ const VerifyOtp = () => {
             {`Didn't`} receive code?{" "}
             <a
               className="font-medium text-green hover:text-light-green"
-              href="#"
+              href="/resend-otp"
             >
               Resend otp?
             </a>
