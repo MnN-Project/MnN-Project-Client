@@ -50,34 +50,22 @@ const Login = () => {
             </h1>
             <form className="space-y-4" action="#">
               <div>
-                <label
-                  htmlFor="email"
-                  className="block mb-2 text-sm font-medium text-dark"
-                >
-                  Your email
-                </label>
                 <input
                   type="email"
                   name="email"
                   id="email"
                   className="bg-light-gray border border-gray text-dark sm:text-sm rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
-                  placeholder="name@example.com"
+                  placeholder="Enter Email"
                   required=""
                 />
                 <span className="text-danger font-light text-sm"></span>
               </div>
               <div>
-                <label
-                  htmlFor="password"
-                  className="block mb-2 text-sm font-medium text-dark"
-                >
-                  Password
-                </label>
                 <input
                   type="password"
                   name="password"
                   id="password"
-                  placeholder="*******"
+                  placeholder="Password"
                   className="bg-light-gray border border-gray text-dark sm:text-sm font-bold rounded-lg focus:ring-green focus:border-green block w-full p-2.5"
                   required=""
                 />
