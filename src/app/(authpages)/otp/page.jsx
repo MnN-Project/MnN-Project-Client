@@ -154,28 +154,28 @@ const VerifyOtp = () => {
             <div className="flex items-center justify-center gap-3">
               <input
                 type="text"
-                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-transparent hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
+                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-gray hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
                 pattern="[0-9]*"
                 onChange={handlePattern}
                 maxLength="1"
               />
               <input
                 type="text"
-                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-transparent hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
+                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-gray hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
                 pattern="[0-9]*"
                 onChange={handlePattern}
                 maxLength="1"
               />
               <input
                 type="text"
-                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-transparent hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
+                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-gray hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
                 pattern="[0-9]*"
                 onChange={handlePattern}
                 maxLength="1"
               />
               <input
                 type="text"
-                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-transparent hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
+                className="w-14 h-14 text-center text-2xl font-extrabold text-dark bg-light-gray border border-gray hover:border-gray appearance-none rounded p-4 outline-none focus:bg-white focus:border-green focus:ring-2 focus:ring-green"
                 pattern="[0-9]*"
                 onChange={handlePattern}
                 maxLength="1"
