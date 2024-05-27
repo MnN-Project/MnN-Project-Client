@@ -1,33 +1,30 @@
 import Image from "next/image";
-const AsideLink = ({
-    image,
-    mainTitle,
-    subTitle,
-    id,
-  }) => {
+
+const AsideLink = ({image, mainTitle, subTitle, id,}) => {
     return (
-      <li className="h-16 py-3.7 inline-block overflow-hidden" id={id}>
-        <a href="#" className="transition-colors delay-150 flex">
-          <div className="w-xl h-xl mr-2xs text-center">
-            <Image
-              src={image}
-              width={100}
-              height={100}
-              alt="image"
-              className="object-cover object-center align-middle"
-            />
-          </div>
-          <div className="pt-1.3 max-w-38 group">
-            <span className="whitespace-nowrap text-ellipsis overflow-hidden text-sm block group-hover:text-green transition-colors ease-in-out duration-200">
-              {mainTitle}
-            </span>
-            <span className="text-xs whitespace-nowrap overflow-hidden block text-dark-gray group-hover:text-green transition-colors ease-in-out duration-200">
-              {subTitle}+ Products
-            </span>
-          </div>
-        </a>
-      </li>
+        <li className="inline-block h-16 overflow-hidden py-3.7" id={id}>
+            <a href="#" className="flex transition-colors delay-150">
+                <div className="text-center h-[60px] w-[60px] relative block mr-2xs">
+                    <Image
+                        src={image}
+                        fill
+                        alt="image"
+                        sizes="100%"
+                        className="object-cover object-center align-middle"
+                    />
+                </div>
+                <div className="pt-1.3 max-w-38 group">
+                    <span
+                        className="block overflow-hidden text-ellipsis whitespace-nowrap text-sm transition-colors duration-200 ease-in-out group-hover:text-green">
+                      {mainTitle}
+                    </span>
+                    <span className="block overflow-hidden whitespace-nowrap text-xs transition-colors duration-200 ease-in-out text-dark-gray group-hover:text-green">
+                      {subTitle}+ Products
+                    </span>
+                </div>
+            </a>
+        </li>
     );
 };
-  
+
 export default AsideLink;

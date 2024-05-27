@@ -24,7 +24,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <main className="relative mt-s z-10">
+      <main className="relative z-10 mt-s">
         <Container className={`flex lg:bg-white lg:px-m py-s`}>
           <NavList>
             <NavLink />
@@ -45,7 +45,7 @@ const Home = () => {
       {/* Hero Section */}
       
       <Container small className="flex-col">
-        <h3 className="mb-s text-lg font-semibold">
+        <h3 className="text-lg font-semibold mb-s">
           Selected Trending Products
         </h3>
         <ProductItemContainer className="-mx-2xs">
@@ -59,7 +59,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Trending Products */}
-      <Container className="bg-white mt-s flex shadow-md">
+      <Container className="flex bg-white shadow-md mt-s">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Automobiles"
@@ -79,7 +79,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* First Section */}
-      <Container className="bg-white mt-s flex shadow-md">
+      <Container className="flex bg-white shadow-md mt-s">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Agriculture"
@@ -99,7 +99,7 @@ const Home = () => {
         </ProductItemContainer>
       </Container>
       {/* Second Section */}
-      <Container className="bg-white mt-s flex shadow-md">
+      <Container className="flex bg-white shadow-md mt-s">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Fashion Accessories"
@@ -123,8 +123,8 @@ const Home = () => {
       {/* Forms */}
       <Banner />
       {/* Banner */}
-      <Container className="bg-background mt-s flex flex-col">
-        <h2 className="text-center w-full text-xl text-dark">
+      <Container className="flex flex-col bg-background mt-s">
+        <h2 className="w-full text-center text-xl text-dark">
           Sourcing Solution and Tailored Service
         </h2>
         <ProductItemContainer className="-mx-2xs">
