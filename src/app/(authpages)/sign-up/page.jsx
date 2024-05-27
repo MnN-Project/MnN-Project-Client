@@ -5,7 +5,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-import img3 from "@/public/images/img3.jpg";
 
 const SignUp = () => {
   const validationSchema = Yup.object().shape({
@@ -43,14 +42,14 @@ const SignUp = () => {
   });
 
   return (
-    <main className="w-full pt-7 md:pt-8 pb-5">
-      <div className="w-[85%] mx-auto mb-5">
-        <button className="px-3 md:px-6 mb-5 md:mb-0 py-2 md:py-3 text-[12px] md:text-sm font-bold tracking-wide text-white bg-green">
+    <main className="w-full pt-7 pb-5 md:pt-8">
+      <div className="mx-auto mb-5 w-[85%]">
+        <button className="mb-5 px-3 py-2 font-bold tracking-wide text-white text-[12px] bg-green md:mb-0 md:px-6 md:py-3 md:text-sm">
           MADE IN NIGERIALOGO
         </button>
       </div>
 
-      <div className="w-[85%] md:w-[70%] mx-auto mt-1 mb-2 flex gap-1 justify-end text-sm md:text-base font-normal font-montserrat text-dark">
+      <div className="mx-auto mt-1 mb-2 flex justify-end gap-1 text-sm font-normal w-[85%] font-montserrat text-dark md:w-[70%] md:text-base">
         <p>Already a member?</p>
         <Link
           href="/login"
@@ -60,37 +59,37 @@ const SignUp = () => {
         </Link>
       </div>
 
-      <div className="w-[85%] md:w-full mx-auto md:mx-0 md:flex md:flex-col md:items-center md:justify-center">
-        <div className="md:w-[70%] md:h-[550px] block md:flex bg-white">
-          <div className="md:basis-[50%] rounded-sm shadow-md">
-            <div className="w-full h-[200px] md:h-full relative">
+      <div className="mx-auto w-[85%] md:mx-0 md:flex md:w-full md:flex-col md:items-center md:justify-center">
+        <div className="block bg-white md:w-[70%] md:h-[550px] md:flex">
+          <div className="rounded-sm shadow-md md:basis-[50%]">
+            <div className="relative w-full h-[200px] md:h-full">
               <div>
                 <Image
-                  src={img3}
+                  src={``}
                   alt="laptop bg"
                   fill
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <div className="w-full h-full flex flex-col md:items-center md:justify-center">
-                <div className="z-20 pl-4 md:pl-0 pt-4 md:pt-0">
-                  <div className="md:w-fit rounded-sm">
-                    <h2 className="text-green text-sm md:text-2xl font-bold font-montserrat">
+              <div className="flex h-full w-full flex-col md:items-center md:justify-center">
+                <div className="z-20 pt-4 pl-4 md:pt-0 md:pl-0">
+                  <div className="rounded-sm md:w-fit">
+                    <h2 className="text-sm font-bold text-green font-montserrat md:text-2xl">
                       Top Deals!
                     </h2>
-                    <h2 className="text-dark-gray text-sm md:text-lg font-bold font-montserrat">
+                    <h2 className="text-sm font-bold text-dark-gray font-montserrat md:text-lg">
                       This Coming Week...
                     </h2>
-                    <h3 className="mt-2 md:mt-5 mb-4 md:mb-0 text-sm md:text-base font-bold font-montserrat">
+                    <h3 className="mt-2 mb-4 text-sm font-bold font-montserrat md:mt-5 md:mb-0 md:text-base">
                       Enjoy Our{" "}
                       <span className="text-green">Unlimited Offers</span>
                     </h3>
                   </div>
 
-                  <div className="w-full mt-3 flex justify-end absolute md:relative bottom-0 right-0 md:bottom-auto md:right-auto">
+                  <div className="absolute right-0 bottom-0 mt-3 flex w-full justify-end md:relative md:right-auto md:bottom-auto">
                     <div className="w-fit px-3 md:px-0 md:w-[320px] md:h-[140px] grid place-content-center bg-[#0c6a478a]">
                       {/* bg-[#00000057] */}
-                      <ul className="p-3 text-[8px] md:text-sm text-white list-disc tracking-wide font-medium">
+                      <ul className="list-disc p-3 font-medium tracking-wide text-white text-[8px] md:text-sm">
                         <li>Unlimited Posting </li>
                         <li className="py-1">Featured products</li>
                         <li>Available on Search Engine</li>
@@ -102,13 +101,13 @@ const SignUp = () => {
             </div>
           </div>
 
-          <div className="w-full md:basis-[50%] mt-8 md:mt-0 pb-10 md:pb-0 flex flex-col justify-center items-center bg-white rounded-sm shadow-md">
-            <form className="w-[85%] md:w-[70%] flex flex-col items-center justify-center">
+          <div className="mt-8 flex w-full flex-col items-center justify-center rounded-sm bg-white pb-10 shadow-md md:basis-[50%] md:mt-0 md:pb-0">
+            <form className="flex flex-col items-center justify-center w-[85%] md:w-[70%]">
               <h1 className="text-base md:text-lg md:mb-5 text-[#000000] font-bold">
                 Enter Your Information
               </h1>
 
-              <div className="w-full mt-6 relative">
+              <div className="relative mt-6 w-full">
                 <input
                   type="text"
                   placeholder="Email"
@@ -129,7 +128,7 @@ const SignUp = () => {
                 ) : null}
               </div>
 
-              <div className="w-full mt-6 relative">
+              <div className="relative mt-6 w-full">
                 <input
                   type="text"
                   placeholder="Password"
@@ -150,7 +149,7 @@ const SignUp = () => {
                 ) : null}
               </div>
 
-              <div className="w-full mt-6 relative">
+              <div className="relative mt-6 w-full">
                 <input
                   type="text"
                   placeholder="Confirm Password"
@@ -178,11 +177,11 @@ const SignUp = () => {
                   id="checkbox-select"
                   type="checkbox"
                   value=""
-                  className="w-4 h-4 mr-2 md:mr-1 text-green accent-pinkish-gray rounded-sm"
+                  className="mr-2 h-4 w-4 rounded-sm text-green accent-pinkish-gray md:mr-1"
                 />
                 <label
                   htmlFor="checkbox-select"
-                  className="my-3 text-[12px] md:text-sm font-medium text-gray-900 dark:text-gray-300"
+                  className="my-3 font-medium text-gray-900 text-[12px] dark:text-gray-300 md:text-sm"
                 >
                   Accept User Agreement and Privacy Policy
                 </label>
@@ -199,7 +198,7 @@ const SignUp = () => {
         </div>
       </div>
       <div className="my-3">
-        <div className="px-10 md:px-0 flex items-center gap-1 md:gap-2 justify-center">
+        <div className="flex items-center justify-center gap-1 px-10 md:gap-2 md:px-0">
           <Link
             href="/about-us"
             className="text-dark text-[12px] md:text-sm font-normal font-montserrat tracking-wide hover:text-[#308868] cursor-pointer transition-all duration-150 ease-linear"

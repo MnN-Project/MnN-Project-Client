@@ -50,6 +50,9 @@ module.exports = {
         38: "9.375rem", //150px
         180: "11.25rem", //180px
       },
+      lineClamp: {
+        7: '7',
+      },
       spacing: {
         0: "0px", //0px
         1.25: "0.188rem", //3px

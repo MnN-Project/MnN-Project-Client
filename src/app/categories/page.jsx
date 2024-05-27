@@ -19,7 +19,7 @@ const Categories = () => {
       
       </Breadcrumb>
 
-      <Container small className="px-0 md:px-2xs md:py-2xs pt-0 pb-0">
+      <Container small className="px-0 pt-0 pb-0 md:px-2xs md:py-2xs">
         <AsideWithImage
           buttonText="Source Now"
           headingText="Automobiles"

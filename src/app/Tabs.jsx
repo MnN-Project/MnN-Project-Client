@@ -34,7 +34,7 @@ const Tabs = () => {
   return (
     <div
       onMouseLeave={() => handleSetSelected(null)}
-      className="relative flex h-fit gap-2 z-30"
+      className="relative z-30 flex h-fit gap-2"
     >
       {TABS.map((t) => {
         return (
@@ -67,7 +67,7 @@ const Tab = ({ children, tab, handleSetSelected, selected }) => {
         selected === tab ? "text-green" : "text-dark"
       }`}
     >
-      <span className="flex items-center flex-col text-sm">{children}</span>
+      <span className="flex flex-col items-center text-sm">{children}</span>
     </button>
   );
 };
@@ -116,7 +116,7 @@ const Content = ({ selected, dir }) => {
 };
 
 const Bridge = () => (
-  <div className="absolute -top-[24px] left-0 right-0 h-[24px]" />
+  <div className="absolute right-0 left-0 -top-[24px] h-[24px]" />
 );
 
 const Nub = ({ selected }) => {
@@ -149,7 +149,7 @@ const Nub = ({ selected }) => {
       }}
       animate={{ left }}
       transition={{ duration: 0.25, ease: "easeInOut" }}
-      className="absolute left-1/2 top-0 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 rounded-tl border border-neutral-600  border-green"
+      className="absolute top-0 left-1/2 h-4 w-4 -translate-x-1/2 -translate-y-1/2 rotate-45 rounded-tl border border-neutral-600 border-green"
     />
   );
 };
@@ -196,7 +196,7 @@ const Products = () => {
         </div>
       </div>
 
-      <button className="ml-auto mt-4 hover:text-green flex items-center gap-1 text-sm text-indigo-300">
+      <button className="mt-4 ml-auto flex items-center gap-1 text-sm text-indigo-300 hover:text-green">
         <span>View more</span>
         <FiArrowRight />
       </button>
@@ -242,7 +242,7 @@ const Blog = () => {
             src="/imgs/blog/4.png"
             alt="Placeholder image"
           />
-          <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
+          <h4 className="text-sm font-medium mb-0.5">Lorem ipsum dolor</h4>
           <p className="text-xs text-neutral-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo
             quidem eos.
@@ -254,14 +254,14 @@ const Blog = () => {
             src="/imgs/blog/5.png"
             alt="Placeholder image"
           />
-          <h4 className="mb-0.5 text-sm font-medium">Lorem ipsum dolor</h4>
+          <h4 className="text-sm font-medium mb-0.5">Lorem ipsum dolor</h4>
           <p className="text-xs text-neutral-400">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo
             quidem eos.
           </p>
         </a>
       </div>
-      <button className="ml-auto mt-4 flex items-center gap-1 text-sm text-indigo-300">
+      <button className="mt-4 ml-auto flex items-center gap-1 text-sm text-indigo-300">
         <span>View more</span>
         <FiArrowRight />
       </button>
@@ -272,7 +272,7 @@ const Blog = () => {
 const TABS = [
   {
     icon: (
-      <BsFillChatQuoteFill className="relative h-[22px] w-[22px] text-2xl inline-block no-underline group-hover:text-green text-light-green" />
+      <BsFillChatQuoteFill className="relative inline-block text-2xl no-underline h-[22px] w-[22px] text-light-green group-hover:text-green" />
     ),
     text: "Post My RFQ",
     Component: Products,
@@ -285,7 +285,7 @@ const TABS = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-6 h-6 inline-block no-underline group-hover:stroke-green text-dark"
+        className="inline-block h-6 w-6 no-underline text-dark group-hover:stroke-green"
       >
         <path
           strokeLinecap="round"
@@ -305,7 +305,7 @@ const TABS = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-6 h-6 inline-block no-underline group-hover:stroke-green stroke-dark"
+        className="inline-block h-6 w-6 no-underline stroke-dark group-hover:stroke-green"
       >
         <path
           strokeLinecap="round"
@@ -325,7 +325,7 @@ const TABS = [
         viewBox="0 0 24 24"
         strokeWidth={1.5}
         stroke="currentColor"
-        className="w-6 h-6 inline-block no-underline group-hover:text-green text-dark"
+        className="inline-block h-6 w-6 no-underline text-dark group-hover:text-green"
       >
         <path
           strokeLinecap="round"

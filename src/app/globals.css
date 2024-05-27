@@ -6,10 +6,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    font-size: 100%;
   }
   body {
     @apply font-montserrat bg-background text-dark;
     font-weight: 400;
+    font-size: 1rem;
   }
   p {
     @apply antialiased md:subpixel-antialiased;
