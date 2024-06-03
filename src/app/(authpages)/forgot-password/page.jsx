@@ -90,7 +90,7 @@ const ForgotPassword = () => {
                                             required={true}
                                         />
                                     </div>
-                                    <div className="ml-3 w-full text-sm">
+                                    <div className="ml-3 w-full text-xs">
                                         <label
                                             htmlFor="terms"
                                             className="font-light text-dark-gray"
