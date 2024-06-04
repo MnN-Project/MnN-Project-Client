@@ -204,7 +204,7 @@ const SingleProduct = () => {
           <Aside />
         </div>
         <div className="w-full">
-          <div className="h-[335px] w-full rounded-lg">
+          <div className="w-full rounded-lg">
             <ProductCardSlider
               large
               headingText="More items from this seller"
@@ -213,7 +213,7 @@ const SingleProduct = () => {
           </div>
         </div>
         <div className="w-full">
-          <div className="h-[335px] w-full rounded-lg">
+          <div className="w-full rounded-lg">
             <ProductCardSlider
               large
               headingText="Recently Viewed"
