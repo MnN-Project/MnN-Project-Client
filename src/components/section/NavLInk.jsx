@@ -29,9 +29,9 @@ export const NavLink = () => {
     return (
         <>
             <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-                <a href="#" className="block whitespace-nowrap text-sm group py-1.3 hover:text-green">
+                <a href="/category" className="block whitespace-nowrap text-sm group py-1.3 hover:text-green">
         <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
-          Manufacturing & Processing Machinery
+          Manufacturing
         </span>
                 </a>
                 <div
@@ -187,9 +187,9 @@ export const NavLink = () => {
             </li>
             {/* second */}
             <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
-                <a href="#" className="block whitespace-nowrap text-sm group py-1.3 hover:text-green">
+                <a href="/category" className="block whitespace-nowrap text-sm group py-1.3 hover:text-green">
                     <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
-                      Component & Industrial Equipment
+                      Industrial Equipment
                     </span>
                 </a>
                 <div className={`hidden group-hover:block p-s w-[630px] absolute left-full -ml-[1px] z-50 bg-white min-h-[535px] max-h-[635px] border border-light-gray shadow-nav overflow-y-auto`} style={{top: `${topValue}px`}}>
