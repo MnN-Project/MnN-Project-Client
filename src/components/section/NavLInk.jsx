@@ -30,9 +30,9 @@ export const NavLink = () => {
         <>
             <li className={cn(`transition-all duration-200 group hover:bg-light-gray -mr-s -ml-2xs pr-s pl-2xs`)}>
                 <a href="/category" className="block whitespace-nowrap text-sm group py-1.3 hover:text-green">
-        <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
-          Manufacturing
-        </span>
+                    <span className={cn("text-dark py-3xs group-hover:text-green transition-colors duration-150")}>
+                      Manufacturing & Processing Machinery
+                    </span>
                 </a>
                 <div
                     className={`hidden group-hover:block p-s w-[630px] absolute left-full -ml-[1px] z-50 bg-white min-h-[535px] max-h-[635px] border border-light-gray shadow-nav overflow-y-auto`}
@@ -45,7 +45,7 @@ export const NavLink = () => {
                                     <div className="text-sm h-[181px] px-2xs">
                                         <h3 className="block overflow-hidden text-ellipsis whitespace-nowrap text-sm font-bold py-2xs">Agriculture
                                             Machinery</h3>
-                                        <a href="#" className="capitalize pb-2xs">Agricultural Machinery</a>
+                                        <a href="/category" className="capitalize pb-2xs">Agricultural Machinery</a>
                                         <a href="#" className="capitalize pb-2xs">Feed Processing Machinery</a>
                                         <a href="#" className="capitalize pb-2xs">Live Stock Machinery</a>
                                         <a href="#" className="capitalize pb-2xs">Tiller</a>
