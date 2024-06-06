@@ -9,37 +9,45 @@ import Heart from "@/assets/svg/heart.svg";
 import { cn } from "@/libs/utils";
 import Footer from "@/components/footer/Footer";
 import Pagination from "@/components/pagination/Pagination";
+import Container from "@/components/container/Container";
 
 const Category = () => {
   return (
-    <section className="z-10 bg-white">
-      <Header />
-      <div className="relative mx-auto block h-full bg-white container-wrapper lg:mx-[70px]">
+    <>
+        <Header />
+     
+      <Container className="flex">
         <Breadcrumb />
-        <div className="w-full md:flex md:gap-2">
-          <LeftSection />
-          {/* aside left */}
-          <ProductSection>
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-            <ProductItem />
-          </ProductSection>
-          {/* Main Product content */}
-          <RightSection />
-          {/* aside right */}
+      </Container>
+
+      <Container className="flex">
+        <div className="relative mx-auto block h-full bg-white container-wrapper lg:mx-[70px]">
+          <div className="w-full md:flex md:gap-2">
+            <LeftSection />
+            {/* aside left */}
+            <ProductSection>
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+              <ProductItem />
+            </ProductSection>
+            {/* Main Product content */}
+            <RightSection />
+            {/* aside right */}
+          </div>
         </div>
-      </div>
+      </Container>
+
       <Footer />
-    </section>
+    </>
   );
 };
 
@@ -689,7 +697,7 @@ const ProductItem = ({ toggleProduct }) => {
           )}
         >
           <a
-            href="#"
+            href="/product/dhdkdjkjdu"
             className={cn(
               `w-full min-w-[7.813rem] h-[7.813rem] relative xl:h-full block`
             )}

@@ -43,7 +43,7 @@ const Home = () => {
         </Container>
       </main>
       {/* Hero Section */}
-      
+
       <Container small className="flex-col">
         <h3 className="text-lg font-semibold mb-s">
           Selected Trending Products
@@ -78,6 +78,7 @@ const Home = () => {
           ))}
         </ProductItemContainer>
       </Container>
+
       {/* First Section */}
       <Container className="flex bg-white shadow-md mt-s">
         <AsideWithImage
@@ -98,6 +99,7 @@ const Home = () => {
           ))}
         </ProductItemContainer>
       </Container>
+
       {/* Second Section */}
       <Container className="flex bg-white shadow-md mt-s">
         <AsideWithImage
@@ -121,7 +123,10 @@ const Home = () => {
       {/* Third Section */}
       <FormGroup />
       {/* Forms */}
-      <Banner />
+      <Container>
+        <Banner />
+      </Container>
+
       {/* Banner */}
       <Container className="flex flex-col bg-background mt-s">
         <h2 className="w-full text-center text-xl text-dark">

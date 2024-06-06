@@ -12,10 +12,10 @@ const Footer = () => {
                                 <Link href="#">Customer Reviews</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Privacy Policy</Link>
+                                <Link href="/privacy-policy">Privacy Policy</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Return Policy</Link>
+                                <Link href="/return-policy">Return Policy</Link>
                             </li>
                         </ul>
                     </dd>
@@ -26,13 +26,13 @@ const Footer = () => {
                     <dd>
                         <ul>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Complaint</Link>
+                                <Link href="/complaint">Complaint</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Help</Link>
+                                <Link href="/help">Help</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">FAQ</Link>
+                                <Link href="/faqs">FAQ</Link>
                             </li>
                         </ul>
                     </dd>
@@ -43,13 +43,13 @@ const Footer = () => {
                     <dd>
                         <ul>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Categories</Link>
+                                <Link href="/category">Categories</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
                                 <Link href="#">Check Verified Sellers</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
-                                <Link href="#">Tips</Link>
+                                <Link href="/tips">Tips</Link>
                             </li>
                             <li className="text-sm px-2xs mb-1.3">
                                 <Link href="#">Buyers</Link>

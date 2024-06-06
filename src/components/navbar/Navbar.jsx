@@ -66,7 +66,8 @@ const Navbar = ({sticky}) => {
                     <span className="w-full min-w-0 flex-auto business-item custom-business last:-mr-px">
             <div className="flex">
               <div className="flex flex-[0_0_auto]">
-                <NavbarLink text="Why Choose Us"/>
+                <NavbarLink href="/why-choose-us"  text="Why Choose Us"/>
+
                 <NavbarLink
                     text="Verified Sellers"
                     className="sxl:block hidden"
@@ -84,9 +85,9 @@ const Navbar = ({sticky}) => {
                     <NavbarLink text="Supplier"/>
                     <NavbarLink text="Buyers"/>
                     <span className="inline-block h-auto flex-auto flex-shrink-0 mr-5.5 -ml-1.3 mt-2xs text-gray">|</span>
-                    <NavbarLink text="Help"/>
-                    <NavbarLink text="Contact Us"/>
-                    <NavbarLink text="Drop Complaint"/>
+                    <NavbarLink href="/help" text="Help"/>
+                    <NavbarLink href="/contact-us" text="Contact Us"/>
+                    <NavbarLink href="/complaint" text="Drop Complaint"/>
                 </div>
                 {/* right */}
             </div>
