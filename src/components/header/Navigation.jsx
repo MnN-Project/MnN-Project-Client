@@ -4,7 +4,7 @@ import {cn} from "@/libs/utils";
 const Navigation = ({sticky}) => {
     return (
         <nav className="flex w-full items-start">
-            <div className="grow">
+            <div className={`${sticky ? 'w-full': 'basis-[587px] sm:basis-full'}`}>
                 <div className="mx-auto">
                     <div className="mb-5 rounded-3xl border-2 border-green">
                         <form>
@@ -79,7 +79,7 @@ const Navigation = ({sticky}) => {
                 </div>
             </div>
             {/* second nav */}
-            <div className={cn(`hidden md:flex items-center`)}>
+            <div className={cn(`hidden flex-1 justify-end md:flex items-center`)}>
                 <Dropdown sticky={sticky}/>
             </div>
         </nav>
