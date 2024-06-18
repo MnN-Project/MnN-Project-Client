@@ -62,4 +62,8 @@
   .shadow-nav {
     box-shadow: 3px 3px 5px 0 rgba(0, 0, 0, 0.15);
   }
+
+  .btn-focus {
+    @apply outline-2 outline-offset-2 focus-within:outline-dashed focus-within:outline-gray focus-within:shadow-sm;
+  }
 }

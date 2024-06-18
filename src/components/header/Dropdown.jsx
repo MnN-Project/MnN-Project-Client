@@ -1,34 +1,31 @@
-import React, {useEffect, useState} from "react";
-import {BsFillChatQuoteFill} from "react-icons/bs";
-import {FiArrowRight, FiBarChart2, FiHome, FiPieChart} from "react-icons/fi";
+import React from "react";
 import {cn} from "@/libs/utils";
-import {FaRegUser} from "react-icons/fa6";
+import { FiUser } from "react-icons/fi";
 import {BsEnvelope} from "react-icons/bs";
 import {BsCart2} from "react-icons/bs";
 import {TbTargetArrow} from "react-icons/tb";
-import Link from "next/link";
 
 const Dropdown = ({sticky, className}) => {
     return (
         <div className={`${className || ""} text-sm xl:ml-10.5 ml-s`}>
             <div className="wrapper">
-                <div className="relative flex text-center space-x-2 xl:space-x-3.5">
+                <div className="relative flex text-center">
                     <NavHoverLink
                         buttonText="Post Requests"
                         className="hidden text-green sm:block"
                     >
-                        <TbTargetArrow className="relative inline-block no-underline text-[23px] text-green"/>
+                        <TbTargetArrow className="relative inline-block stroke-1.2 no-underline text-[23px] text-green"/>
                     </NavHoverLink>
                     {/* link 1 */}
                     {!sticky && (
                         <>
 
                             <NavHoverLink destination="/login"
-                                          buttonText="Sign in/ Join"
+                                          buttonText="Sign in / Join"
                                           className="hidden group-hover:text-light-green lg:block"
                             >
-                                <FaRegUser
-                                    className="relative inline-block no-underline text-[23px] group-hover:text-green"/>
+                                <FiUser
+                                    className="relative inline-block no-underline text-[23px] stroke-0.2 group-hover:text-green"/>
                             </NavHoverLink>
 
                             <Tooltip className="min-w-[385px]"></Tooltip>
@@ -38,7 +35,7 @@ const Dropdown = ({sticky, className}) => {
                                 className="hidden group-hover:text-green lg:block"
                             >
                                 <BsEnvelope
-                                    className="relative inline-block no-underline text-[23px] group-hover:text-green"/>
+                                    className="relative inline-block no-underline w-[22px] h-[22px] stroke-0.5 group-hover:text-green"/>
                                 <Tooltip className="min-w-[385px] group-hover:block">
                                     Tell us what you need and try the easy way to get quotes!
                                 </Tooltip>
@@ -65,12 +62,12 @@ const NavHoverLink = ({children, buttonText, className, destination}) => {
         <a
             href={destination ? destination : "#"}
             className={cn(
-                `inline-flex ${className} flex-col group transition-colors duration-150 ease-out items-center no-underline`
+                `inline-flex ${className} flex-col px-3 tracking-tighter font-medium group transition-colors duration-150 ease-out items-center no-underline`
             )}
         >
             {children}
             <div
-                className={`text-xs xl:text-sm font-medium text-nowrap group-hover:text-green`}
+                className={`text-xs xl:text-sm text-nowrap group-hover:text-green`}
             >
                 {buttonText}
             </div>
