@@ -5,7 +5,7 @@ import {Button} from "../button/Button";
 
 const EventGroup = () => {
     return (
-        <Container small className="flex-col rounded-md">
+        <Container small className="flex-col rounded-md mb-s">
             <div className="relative w-full overflow-hidden text-center">
                 <Button
                     size="sm"
