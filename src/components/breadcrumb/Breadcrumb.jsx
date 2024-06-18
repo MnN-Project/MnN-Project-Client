@@ -5,7 +5,7 @@ const Breadcrumb = ({children}) => {
         <nav className="inline-block pt-[10px] mb-[10px]" aria-label="Breadcrumb">
             <ol className="inline-flex w-full items-center text-xs space-x-1 rtl:space-x-reverse text-dark-gray md:space-x-2">
                 <li className="inline-flex items-center">
-                    <a href="#" className="inline-flex items-center text-xs text-gray-700 hover:text-blue-600">
+                    <a href="/" className="inline-flex items-center text-xs text-gray-700 hover:text-blue-600">
                         <svg
                             className="h-3 w-3 me-2.5"
                             aria-hidden="true"

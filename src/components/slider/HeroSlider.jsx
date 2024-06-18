@@ -11,6 +11,7 @@ const HeroSlider = () => {
             {/* Slider */}
             <div className="hidden basis-1/4 mt-2xs md:block">
                 <ul className="flex h-full justify-between gap-2xs">
+                  
                     <HeroTabLinks
                         firstChild
                         src="https://plus.unsplash.com/premium_photo-1683887064255-1c428d0b3934?q=80&w=1486&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"

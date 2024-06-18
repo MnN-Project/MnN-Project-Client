@@ -124,7 +124,7 @@ const Home = () => {
       <FormGroup />
       {/* Forms */}
       <Container>
-        <Banner />
+        <Banner src="/assets/slider1.jpg" sectionHeight="200px" />
       </Container>
 
       {/* Banner */}

@@ -1,8 +1,8 @@
- "use client"
+"use client";
 import Breadcrumb, { BreadCrumbItem } from "@/components/breadcrumb/Breadcrumb";
 import Container from "@/components/container/Container";
-import Header from "@/components/header/Header"
-import "./categories.css"
+import Header from "@/components/header/Header";
+import "./categories.css";
 import ProductItemContainer from "@/components/section/ProductItemContainer";
 import ProductListCard from "@/components/card/ProductListCard";
 import { serviceCardItems, trendingProductList } from "@/app/data";
@@ -14,20 +14,18 @@ import AsideWithImage from "@/components/section/AsideWithImage";
 import FormGroup from "@/components/group/FormGroup";
 import Footer from "@/components/footer/Footer";
 
-
 const Category = () => {
+  const [activeCategory, setActiveCategory] = useState(null);
 
- const [activeCategory, setActiveCategory] = useState(null);
+  const handleHover = (category) => () => {
+    setActiveCategory(category.id);
+  };
 
- const handleHover = (category) => () => {
-   setActiveCategory(category.id);
- };
+  const handleMouseLeave = () => {
+    setActiveCategory(null);
+  };
 
- const handleMouseLeave = () => {
-   setActiveCategory(null);
- };
-   
-   const caratRight = ()=>{
+  const caratRight = () => {
     return (
       <svg
         className="mx-1 h-3 w-3 rtl:rotate-180 text-gray-400"
@@ -45,11 +43,9 @@ const Category = () => {
         />
       </svg>
     );
-   }
+  };
 
-
-
-   const productListData = trendingProductList.slice(0, 8);
+  const productListData = trendingProductList.slice(0, 8);
   return (
     <>
       <Header />
@@ -139,6 +135,6 @@ const Category = () => {
       <Footer />
     </>
   );
-}
+};
 
-export default Category
+export default Category;
