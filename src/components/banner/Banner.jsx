@@ -11,14 +11,12 @@ const Banner = ({ sectionHeight, src }) => {
         <Image
           src={src}
           alt="Banner Image"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
+          fill
+          style={{ objectFit: "cover", objectPosition: "center" }}
         />
       </Link>
     </section>
   );
 };
-
 
 export default Banner;

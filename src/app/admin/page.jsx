@@ -2,13 +2,11 @@
 import React from "react";
 import Image from "next/image";
 import LineChart from "@/components/charts/LineChart";
-import ArialChart from "@/components/charts/ArialChart";
-import RadialBarChart from "@/components/charts/RadialBarChart";
-import RadialLineChart from "@/components/charts/RadialLineChart";
 import AdminContainer from "@/components/container/AdminContainer";
 
 
 const Admin = () => {
+   
         const chart1 = {
             id: 1,
             color: "#FF0000",
@@ -39,7 +37,9 @@ const Admin = () => {
         }
 
         return (
+        
             <AdminContainer>
+
                 <main>
                     <div className="fixed top-0 right-0 left-0 pointer-events-none w-auto h-[3px] opacity-0 bg-green"
                          style={{
@@ -194,13 +194,14 @@ const Admin = () => {
                                             </p>
                                         </div>
                                     </div>
+                                    
                                     <div style={{
                                         height: '273px',
                                         display: 'block',
                                         position: 'relative',
                                         overflow: 'hidden'
                                     }}>
-                                        <ArialChart/>
+                                        {/* <ArialChart/> */}
                                     </div>
                                 </div>
                             </div>
@@ -225,7 +226,7 @@ const Admin = () => {
                                                 </p>
                                             </div>
                                             <div className="flex-1">
-                                                <RadialBarChart/>
+                                                {/* <RadialBarChart/> */}
                                             </div>
                                         </div>
                                     </div>
@@ -234,7 +235,7 @@ const Admin = () => {
                                     <div
                                         className="border-gray relative w-full border bg-white transition-all duration-300 rounded-md flex-1 p-6">
                                         <div className="w-full">
-                                            <RadialLineChart/>
+                                            {/* <RadialLineChart/> */}
                                         </div>
                                     </div>
                                 </div>
@@ -246,6 +247,7 @@ const Admin = () => {
 
 
                 </main>
+                
             </AdminContainer>
         );
     }

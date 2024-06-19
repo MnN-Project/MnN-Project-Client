@@ -210,7 +210,7 @@ const CompanyPage = () => {
                                         Simple and affordable
                                     </h3>
                                     <p className="mt-1 text-dark-gray">
-                                        From boarding passes to movie tickets, there's pretty much nothing you can't
+                                        From boarding passes to movie tickets, there are pretty much nothing you cannot
                                         store with MNN.
                                     </p>
                                 </div>
@@ -455,8 +455,8 @@ const CompanyPage = () => {
                                         <path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/>
                                     </svg>
                                     <div className="grow">
-                                        <h4 className="text-dark font-semibold">We're hiring</h4>
-                                        <p className="mt-1 text-neutral-400">We're thrilled to announce that we're
+                                        <h4 className="text-dark font-semibold">We are hiring</h4>
+                                        <p className="mt-1 text-neutral-400">We are thrilled to announce that we are
                                             expanding our team and looking for talented individuals like you to join
                                             us.</p>
                                         <p className="mt-2">
