@@ -164,8 +164,6 @@ const AdminContainer = ({children}) => {
                                 <div className="relative h-10 w-10 text-left">
                                     <button
                                         className="inline-flex h-10 w-10 items-center justify-center rounded-full ring-1 ring-transparent transition-all duration-300 group-hover:ring-primary-500 group-hover:ring-offset-4 dark:ring-offset-muted-800"
-                                        id="headlessui-menu-button-33"
-                                        aria-haspopup="menu"
                                         aria-expanded="false"
                                     >
                                         <div
@@ -242,27 +240,6 @@ const AdminContainer = ({children}) => {
                                     <Notification/>
                                 </div>
                             </div>
-                            {/*Notification button*/}
-                            {/*<button type="button"*/}
-                            {/*        className="border-light-gray hover:ring-gray flex h-9 w-9 items-center justify-center rounded-full border bg-white ring-1 ring-transparent transition-all duration-300 hover:ring-offset-4">*/}
-                            {/*    <svg*/}
-                            {/*        xmlns="http://www.w3.org/2000/svg"*/}
-                            {/*        aria-hidden="true"*/}
-                            {/*        role="img"*/}
-                            {/*        className="icon text-dark-gray h-5 w-5"*/}
-                            {/*        viewBox="0 0 256 256">*/}
-                            {/*        <g fill="currentColor">*/}
-                            {/*            <path*/}
-                            {/*                d="M112 80a32 32 0 1 1-32-32a32 32 0 0 1 32 32Zm64 32a32 32 0 1 0-32-32a32 32 0 0 0 32 32Zm-96 32a32 32 0 1 0 32 32a32 32 0 0 0-32-32Zm96 0a32 32 0 1 0 32 32a32 32 0 0 0-32-32Z"*/}
-                            {/*                opacity=".2"*/}
-                            {/*            />*/}
-                            {/*            <path*/}
-                            {/*                d="M80 40a40 40 0 1 0 40 40a40 40 0 0 0-40-40Zm0 64a24 24 0 1 1 24-24a24 24 0 0 1-24 24Zm96 16a40 40 0 1 0-40-40a40 40 0 0 0 40 40Zm0-64a24 24 0 1 1-24 24a24 24 0 0 1 24-24Zm-96 80a40 40 0 1 0 40 40a40 40 0 0 0-40-40Zm0 64a24 24 0 1 1 24-24a24 24 0 0 1-24 24Zm96-64a40 40 0 1 0 40 40a40 40 0 0 0-40-40Zm0 64a24 24 0 1 1 24-24a24 24 0 0 1-24 24Z"*/}
-                            {/*            />*/}
-                            {/*        </g>*/}
-                            {/*    </svg>*/}
-                            {/*</button>*/}
-                            {/*Activity menu Button*/}
                             <div className="group inline-flex items-center justify-center text-right">
                                 <div className="relative h-9 w-9 text-left">
                                     <ProfileMenu/>
