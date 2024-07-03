@@ -101,7 +101,6 @@ const Product = () => {
           {/* filters Group */}
           <SearchFilters />
           {/* end filters Group */}
-
           {/* Table Container */}
           <TableContainer>
             <TableHeader>

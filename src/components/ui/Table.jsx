@@ -605,7 +605,7 @@ const Table = ({ children }) => {
         {/* Table Section */}
         {children}
         {/* End Table Section */}
-      </div>
+      </div> 
     </section>
   );
 };
