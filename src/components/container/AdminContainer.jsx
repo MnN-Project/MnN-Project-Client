@@ -111,7 +111,7 @@ const AdminContainer = ({children}) => {
         <div className="pb-20 bg-light-gray">
             <div className="pointer-events-none fixed top-0 flex h-full start-0 z-[60] xl:z-10">
                 <div
-                    className={`pointer-events-auto relative z-20 flex h-full flex-col border-r bg-white transition-all duration-300 border-green w-[80px] ${!sidepanel && '-translate-x-full lg:translate-x-0'}`}>
+                    className={`pointer-events-auto relative z-20 flex h-full flex-col border-r bg-white transition-all duration-300 border-green w-[80px] ${!sidepanel && '-translate-x-full xl:translate-x-0'}`}>
                     <div className="flex h-16 w-full items-center justify-center">
                         <a href="#" className="flex items-center justify-center">
                             <Logo className="h-10 text-green"/>
