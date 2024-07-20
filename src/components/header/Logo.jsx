@@ -8,9 +8,9 @@ const Logo = () => {
             <div className="flex items-center">
                 <Link
                     href="/"
-                    className="inline-flex items-center w-53 h-10.3"
+                    className="inline-flex items-center w-40 h-7"
                 >
-                    <Image src={AppLogo} alt="logo" width={200} height={200} />
+                    <Image src={AppLogo} alt="logo" width={160} height={28} />
                 </Link>
             </div>
         </div>

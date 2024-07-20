@@ -61,7 +61,7 @@ const Navbar = ({ sticky }) => {
           <div className="sm:flex items-center hidden">
             <span className="mr-0 h-auto flex-auto flex-shrink-0 flex-grow-0">
               <div className="-ml-2xs">
-                <div className="relative z-50 whitespace-nowrap py-2xs pl-xs pr-s group-hover:active group-hover:hover-active">
+                <div className="group relative z-50 whitespace-nowrap py-2xs pl-xs pr-s group-hover:active group-hover:hover-active">
                   <Link
                     className="z-20 whitespace-nowrap transition-colors duration-150 ease-out group group-hover:text-green"
                     href="#"

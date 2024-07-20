@@ -1,4 +1,3 @@
-
 "use client";
 import React, { useCallback, useEffect, useState } from "react";
 import { cn } from "@/libs/utils";
@@ -70,7 +69,7 @@ const Header = ({ className, ...props }) => {
   useEffect(() => {
     if (sidepanel) {
       document.addEventListener("click", handleDropdownReset);
-    } 
+    }
     return () => {
       document.removeEventListener("click", handleDropdownReset);
     };
@@ -94,7 +93,8 @@ const Header = ({ className, ...props }) => {
     <>
       <header
         className={cn(
-          `pt-2 lg:pt-5 w-full bg-white container-wrapper`, className,
+          `pt-2 lg:pt-5 w-full bg-white container-wrapper`,
+          className,
           {
             "fixed top-0 right-0 left-0 z-40 shadow-md transition-all duration-200 ease-linear":
               sticky,
@@ -118,14 +118,15 @@ const Header = ({ className, ...props }) => {
         <Navbar sticky={sticky} />
       </header>
       {/* Drawer */}
-      <div className={`bg-white w-[350px] transition-transform ${
+      <div
+        className={`bg-white w-[350px] transition-transform ${
           sidepanel ? "translate-x-0" : "translate-x-[-350px]"
         } fixed top-0 flex h-full start-0 z-[100]`}
       >
         <div className="flex relative h-screen flex-col w-full px-4">
           <div className="flex items-center justify-between w-full py-[10px]">
             <Link href="#" className="font-bold text-2xl">
-              <Image src={AppImage} alt="logo" width={200} height={150} />
+              <Logo />
             </Link>
             <button onClick={handleSidepanel} className={`cursor-pointer`}>
               <ArrowLeft className={`w-6 h-6 rotate-180 stroke-green`} />
@@ -226,4 +227,3 @@ const Header = ({ className, ...props }) => {
 };
 
 export default Header;
-
