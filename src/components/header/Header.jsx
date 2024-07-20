@@ -7,6 +7,9 @@ import Navigation from "./Navigation";
 import Navbar from "../navbar/Navbar";
 import ArrowLeft from "@/assets/svg/arrow-right.svg";
 import HamburgerMenu from "@/assets/svg/hamburger-menu.svg";
+import Link from "next/link";
+import Image from "next/image";
+import AppImage from "../../../public/assets/Logo1.png";
 
 const Header = ({ className, ...props }) => {
   const [sidepanel, setSidepanel] = useState(false);
@@ -67,9 +70,7 @@ const Header = ({ className, ...props }) => {
   useEffect(() => {
     if (sidepanel) {
       document.addEventListener("click", handleDropdownReset);
-    } else {
-      document.removeEventListener("click", handleDropdownReset);
-    }
+    } 
     return () => {
       document.removeEventListener("click", handleDropdownReset);
     };
@@ -93,7 +94,7 @@ const Header = ({ className, ...props }) => {
     <>
       <header
         className={cn(
-          `pt-2 lg:pt-5 w-full bg-white container-wrapper ${className}`,
+          `pt-2 lg:pt-5 w-full bg-white container-wrapper`, className,
           {
             "fixed top-0 right-0 left-0 z-40 shadow-md transition-all duration-200 ease-linear":
               sticky,
@@ -110,23 +111,22 @@ const Header = ({ className, ...props }) => {
             <button onClick={handleSidepanel} className="p-2 mr-2 lg:hidden">
               <HamburgerMenu className={`h-6`} />
             </button>
-            <Logo text="made in nigeria" />
+            <Logo />
           </div>
           <Navigation sticky={sticky} />
         </div>
         <Navbar sticky={sticky} />
       </header>
       {/* Drawer */}
-      <div
-        className={`bg-white w-[350px] transition-transform ${
+      <div className={`bg-white w-[350px] transition-transform ${
           sidepanel ? "translate-x-0" : "translate-x-[-350px]"
         } fixed top-0 flex h-full start-0 z-[100]`}
       >
         <div className="flex relative h-screen flex-col w-full px-4">
           <div className="flex items-center justify-between w-full py-[10px]">
-            <a href="#" className="font-bold text-2xl">
-              Brand
-            </a>
+            <Link href="#" className="font-bold text-2xl">
+              <Image src={AppImage} alt="logo" width={200} height={150} />
+            </Link>
             <button onClick={handleSidepanel} className={`cursor-pointer`}>
               <ArrowLeft className={`w-6 h-6 rotate-180 stroke-green`} />
             </button>
