@@ -48,6 +48,7 @@ import AdminDashboard from '@/pages/ProtectedPages/admin-dashboard/mainDashboard
 import AllCompanies from '@/pages/ProtectedPages/admin-dashboard/all-companies-List/AllCompanies';
 import CreatePackage from '@/pages/ProtectedPages/admin-dashboard/createPackages/CreatePackage';
 import EditPackage from '@/pages/ProtectedPages/admin-dashboard/editPackage/EditPackage';
+import { NotFound } from '../pages/Errors';
 
 export const AppRoutes = () => (
   <Routes>
@@ -115,5 +116,6 @@ export const AppRoutes = () => (
         <Route path={`${paths.editPackage}/:packageId`} element={<EditPackage />} />
       </Route>
     </Route>
+    <Route path="*" element={<NotFound />} />
   </Routes>
 );
